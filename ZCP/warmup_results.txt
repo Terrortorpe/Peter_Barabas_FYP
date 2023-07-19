@@ -1,0 +1,1055 @@
+GENOTYPE: Genotype(normal=[('sep_conv_3x3', 1), ('avg_pool_3x3', 0), ('avg_pool_3x3', 1), ('avg_pool_3x3', 2), ('avg_pool_3x3', 1), ('sep_conv_5x5', 2), ('skip_connect', 4), ('skip_connect', 3)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 1), ('avg_pool_3x3', 0), ('dil_conv_5x5', 2), ('sep_conv_5x5', 1), ('dil_conv_3x3', 2), ('skip_connect', 0), ('skip_connect', 3), ('skip_connect', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 40206343152871.1
+JACOBIAN COV: -32.58295625909339
+SNIP: 84.0197982788086
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('dil_conv_5x5', 1), ('dil_conv_5x5', 0), ('avg_pool_3x3', 1), ('sep_conv_5x5', 1), ('max_pool_3x3', 0), ('sep_conv_5x5', 0), ('avg_pool_3x3', 3)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 0), ('sep_conv_5x5', 1), ('skip_connect', 1), ('sep_conv_5x5', 0), ('dil_conv_5x5', 3), ('dil_conv_5x5', 0), ('dil_conv_5x5', 1), ('sep_conv_5x5', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 831898781721312.4
+JACOBIAN COV: -32.30100103575519
+SNIP: 64.51994323730469
+
+GENOTYPE: Genotype(normal=[('max_pool_3x3', 1), ('sep_conv_5x5', 0), ('sep_conv_5x5', 1), ('avg_pool_3x3', 0), ('max_pool_3x3', 3), ('avg_pool_3x3', 1), ('sep_conv_3x3', 2), ('skip_connect', 4)], normal_concat=range(2, 6), reduce=[('skip_connect', 0), ('sep_conv_5x5', 1), ('avg_pool_3x3', 0), ('sep_conv_3x3', 2), ('dil_conv_5x5', 1), ('sep_conv_3x3', 2), ('max_pool_3x3', 2), ('sep_conv_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 3.986841874671666e+17
+JACOBIAN COV: -32.272828787061044
+SNIP: 106.86079406738281
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('avg_pool_3x3', 1), ('max_pool_3x3', 0), ('dil_conv_5x5', 1), ('max_pool_3x3', 0), ('avg_pool_3x3', 2), ('skip_connect', 3), ('dil_conv_5x5', 1)], normal_concat=range(2, 6), reduce=[('sep_conv_5x5', 0), ('dil_conv_5x5', 1), ('skip_connect', 0), ('avg_pool_3x3', 2), ('dil_conv_3x3', 0), ('sep_conv_5x5', 3), ('sep_conv_3x3', 3), ('sep_conv_5x5', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 940506326356265.0
+JACOBIAN COV: -32.25338137594068
+SNIP: 67.59457397460938
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 1), ('sep_conv_3x3', 0), ('max_pool_3x3', 1), ('skip_connect', 2), ('avg_pool_3x3', 3), ('avg_pool_3x3', 1), ('dil_conv_3x3', 3), ('avg_pool_3x3', 1)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 0), ('avg_pool_3x3', 1), ('avg_pool_3x3', 1), ('sep_conv_3x3', 0), ('skip_connect', 1), ('sep_conv_3x3', 2), ('dil_conv_5x5', 0), ('dil_conv_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 750675292011827.8
+JACOBIAN COV: -32.27973096677407
+SNIP: 103.94195556640625
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('sep_conv_3x3', 1), ('dil_conv_5x5', 2), ('sep_conv_5x5', 1), ('skip_connect', 2), ('max_pool_3x3', 3), ('sep_conv_5x5', 3), ('avg_pool_3x3', 1)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 1), ('dil_conv_5x5', 0), ('sep_conv_5x5', 2), ('sep_conv_5x5', 0), ('dil_conv_3x3', 2), ('max_pool_3x3', 0), ('sep_conv_3x3', 1), ('avg_pool_3x3', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 7.703728867020576e+21
+JACOBIAN COV: -32.32494572493074
+SNIP: 126.192138671875
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 1), ('dil_conv_5x5', 0), ('dil_conv_3x3', 2), ('max_pool_3x3', 1), ('max_pool_3x3', 2), ('sep_conv_5x5', 0), ('sep_conv_5x5', 4), ('dil_conv_3x3', 1)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 1), ('avg_pool_3x3', 0), ('sep_conv_5x5', 0), ('dil_conv_5x5', 1), ('avg_pool_3x3', 0), ('sep_conv_5x5', 1), ('avg_pool_3x3', 2), ('sep_conv_5x5', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 1.6305352423145164e+16
+JACOBIAN COV: -32.29477797789447
+SNIP: 84.96990966796875
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 1), ('sep_conv_3x3', 0), ('sep_conv_5x5', 0), ('avg_pool_3x3', 1), ('skip_connect', 0), ('sep_conv_3x3', 1), ('dil_conv_5x5', 4), ('max_pool_3x3', 3)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 0), ('sep_conv_3x3', 1), ('dil_conv_5x5', 2), ('dil_conv_5x5', 0), ('skip_connect', 0), ('max_pool_3x3', 2), ('skip_connect', 0), ('skip_connect', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 6.216108822491652e+16
+JACOBIAN COV: -32.29512681824589
+SNIP: 86.74417877197266
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 1), ('avg_pool_3x3', 0), ('dil_conv_3x3', 2), ('dil_conv_5x5', 0), ('max_pool_3x3', 0), ('avg_pool_3x3', 2), ('max_pool_3x3', 3), ('dil_conv_3x3', 1)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 0), ('dil_conv_3x3', 1), ('sep_conv_5x5', 0), ('dil_conv_3x3', 1), ('skip_connect', 3), ('sep_conv_5x5', 0), ('sep_conv_3x3', 4), ('max_pool_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 3857117013778066.5
+JACOBIAN COV: -32.28319974781894
+SNIP: 82.02583312988281
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 0), ('dil_conv_5x5', 1), ('skip_connect', 2), ('sep_conv_5x5', 0), ('dil_conv_3x3', 1), ('sep_conv_5x5', 3), ('dil_conv_3x3', 1), ('max_pool_3x3', 0)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 1), ('sep_conv_3x3', 0), ('avg_pool_3x3', 0), ('dil_conv_5x5', 2), ('dil_conv_3x3', 3), ('dil_conv_3x3', 2), ('max_pool_3x3', 3), ('dil_conv_5x5', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 1.0438269154552047e+18
+JACOBIAN COV: -32.23916183049874
+SNIP: 69.89839935302734
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('avg_pool_3x3', 1), ('dil_conv_3x3', 2), ('max_pool_3x3', 1), ('sep_conv_3x3', 3), ('sep_conv_3x3', 2), ('max_pool_3x3', 4), ('avg_pool_3x3', 3)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 0), ('max_pool_3x3', 1), ('sep_conv_3x3', 0), ('sep_conv_5x5', 1), ('avg_pool_3x3', 1), ('dil_conv_5x5', 2), ('sep_conv_3x3', 3), ('dil_conv_5x5', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 1.7943325202340506e+17
+JACOBIAN COV: -32.36379064460581
+SNIP: 109.95166778564453
+
+GENOTYPE: Genotype(normal=[('sep_conv_3x3', 1), ('avg_pool_3x3', 0), ('avg_pool_3x3', 1), ('avg_pool_3x3', 2), ('avg_pool_3x3', 1), ('sep_conv_5x5', 2), ('skip_connect', 4), ('skip_connect', 3)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 1), ('avg_pool_3x3', 0), ('dil_conv_5x5', 2), ('sep_conv_5x5', 1), ('dil_conv_3x3', 2), ('skip_connect', 0), ('skip_connect', 3), ('skip_connect', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 1.451290174806937e+17
+JACOBIAN COV: -32.67938672562435
+SNIP: 82.56591033935547
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('dil_conv_5x5', 1), ('dil_conv_5x5', 0), ('avg_pool_3x3', 1), ('sep_conv_5x5', 1), ('max_pool_3x3', 0), ('sep_conv_5x5', 0), ('avg_pool_3x3', 3)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 0), ('sep_conv_5x5', 1), ('skip_connect', 1), ('sep_conv_5x5', 0), ('dil_conv_5x5', 3), ('dil_conv_5x5', 0), ('dil_conv_5x5', 1), ('sep_conv_5x5', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 3222142462976777.5
+JACOBIAN COV: -32.29134202322305
+SNIP: 63.264373779296875
+
+GENOTYPE: Genotype(normal=[('max_pool_3x3', 1), ('sep_conv_5x5', 0), ('sep_conv_5x5', 1), ('avg_pool_3x3', 0), ('max_pool_3x3', 3), ('avg_pool_3x3', 1), ('sep_conv_3x3', 2), ('skip_connect', 4)], normal_concat=range(2, 6), reduce=[('skip_connect', 0), ('sep_conv_5x5', 1), ('avg_pool_3x3', 0), ('sep_conv_3x3', 2), ('dil_conv_5x5', 1), ('sep_conv_3x3', 2), ('max_pool_3x3', 2), ('sep_conv_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 1.155460401938295e+20
+JACOBIAN COV: -32.266384503931505
+SNIP: 171.30238342285156
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('avg_pool_3x3', 1), ('max_pool_3x3', 0), ('dil_conv_5x5', 1), ('max_pool_3x3', 0), ('avg_pool_3x3', 2), ('skip_connect', 3), ('dil_conv_5x5', 1)], normal_concat=range(2, 6), reduce=[('sep_conv_5x5', 0), ('dil_conv_5x5', 1), ('skip_connect', 0), ('avg_pool_3x3', 2), ('dil_conv_3x3', 0), ('sep_conv_5x5', 3), ('sep_conv_3x3', 3), ('sep_conv_5x5', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 51438832648833.39
+JACOBIAN COV: -32.24244399265428
+SNIP: 62.62934494018555
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 1), ('sep_conv_3x3', 0), ('max_pool_3x3', 1), ('skip_connect', 2), ('avg_pool_3x3', 3), ('avg_pool_3x3', 1), ('dil_conv_3x3', 3), ('avg_pool_3x3', 1)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 0), ('avg_pool_3x3', 1), ('avg_pool_3x3', 1), ('sep_conv_3x3', 0), ('skip_connect', 1), ('sep_conv_3x3', 2), ('dil_conv_5x5', 0), ('dil_conv_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 1.8384703560295808e+17
+JACOBIAN COV: -32.337402035358906
+SNIP: 101.62947845458984
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('sep_conv_3x3', 1), ('dil_conv_5x5', 2), ('sep_conv_5x5', 1), ('skip_connect', 2), ('max_pool_3x3', 3), ('sep_conv_5x5', 3), ('avg_pool_3x3', 1)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 1), ('dil_conv_5x5', 0), ('sep_conv_5x5', 2), ('sep_conv_5x5', 0), ('dil_conv_3x3', 2), ('max_pool_3x3', 0), ('sep_conv_3x3', 1), ('avg_pool_3x3', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 3.885853845461809e+19
+JACOBIAN COV: -32.26216636487333
+SNIP: 144.93276977539062
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 1), ('dil_conv_5x5', 0), ('dil_conv_3x3', 2), ('max_pool_3x3', 1), ('max_pool_3x3', 2), ('sep_conv_5x5', 0), ('sep_conv_5x5', 4), ('dil_conv_3x3', 1)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 1), ('avg_pool_3x3', 0), ('sep_conv_5x5', 0), ('dil_conv_5x5', 1), ('avg_pool_3x3', 0), ('sep_conv_5x5', 1), ('avg_pool_3x3', 2), ('sep_conv_5x5', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 7.927154709140433e+18
+JACOBIAN COV: -32.34099141678523
+SNIP: 89.88554382324219
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 1), ('sep_conv_3x3', 0), ('sep_conv_5x5', 0), ('avg_pool_3x3', 1), ('skip_connect', 0), ('sep_conv_3x3', 1), ('dil_conv_5x5', 4), ('max_pool_3x3', 3)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 0), ('sep_conv_3x3', 1), ('dil_conv_5x5', 2), ('dil_conv_5x5', 0), ('skip_connect', 0), ('max_pool_3x3', 2), ('skip_connect', 0), ('skip_connect', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 459838806819867.44
+JACOBIAN COV: -32.29302945122958
+SNIP: 90.70316314697266
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 1), ('avg_pool_3x3', 0), ('dil_conv_3x3', 2), ('dil_conv_5x5', 0), ('max_pool_3x3', 0), ('avg_pool_3x3', 2), ('max_pool_3x3', 3), ('dil_conv_3x3', 1)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 0), ('dil_conv_3x3', 1), ('sep_conv_5x5', 0), ('dil_conv_3x3', 1), ('skip_connect', 3), ('sep_conv_5x5', 0), ('sep_conv_3x3', 4), ('max_pool_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 2987205955710335.0
+JACOBIAN COV: -32.26096333281019
+SNIP: 77.19105529785156
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 0), ('dil_conv_5x5', 1), ('skip_connect', 2), ('sep_conv_5x5', 0), ('dil_conv_3x3', 1), ('sep_conv_5x5', 3), ('dil_conv_3x3', 1), ('max_pool_3x3', 0)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 1), ('sep_conv_3x3', 0), ('avg_pool_3x3', 0), ('dil_conv_5x5', 2), ('dil_conv_3x3', 3), ('dil_conv_3x3', 2), ('max_pool_3x3', 3), ('dil_conv_5x5', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 1.4609538110438116e+21
+JACOBIAN COV: -32.29180865147912
+SNIP: 71.99077606201172
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('avg_pool_3x3', 1), ('dil_conv_3x3', 2), ('max_pool_3x3', 1), ('sep_conv_3x3', 3), ('sep_conv_3x3', 2), ('max_pool_3x3', 4), ('avg_pool_3x3', 3)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 0), ('max_pool_3x3', 1), ('sep_conv_3x3', 0), ('sep_conv_5x5', 1), ('avg_pool_3x3', 1), ('dil_conv_5x5', 2), ('sep_conv_3x3', 3), ('dil_conv_5x5', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 2.607105118275401e+19
+JACOBIAN COV: -32.25951702603214
+SNIP: 100.85340118408203
+
+GENOTYPE: Genotype(normal=[('dil_conv_5x5', 0), ('skip_connect', 1), ('skip_connect', 2), ('dil_conv_3x3', 1), ('sep_conv_5x5', 1), ('max_pool_3x3', 2), ('dil_conv_3x3', 1), ('max_pool_3x3', 3)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 1), ('sep_conv_3x3', 0), ('max_pool_3x3', 0), ('skip_connect', 1), ('dil_conv_5x5', 0), ('skip_connect', 2), ('sep_conv_3x3', 4), ('avg_pool_3x3', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 1.2585077750995244e+16
+JACOBIAN COV: -32.28776102272339
+SNIP: 66.52481079101562
+
+GENOTYPE: Genotype(normal=[('sep_conv_3x3', 0), ('sep_conv_5x5', 1), ('sep_conv_3x3', 0), ('dil_conv_3x3', 2), ('dil_conv_3x3', 0), ('sep_conv_5x5', 3), ('avg_pool_3x3', 3), ('dil_conv_5x5', 1)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 0), ('dil_conv_3x3', 1), ('sep_conv_5x5', 2), ('dil_conv_5x5', 1), ('avg_pool_3x3', 1), ('dil_conv_5x5', 0), ('max_pool_3x3', 2), ('avg_pool_3x3', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 9.006933549814853e+21
+JACOBIAN COV: -32.2548664900379
+SNIP: 82.12027740478516
+
+GENOTYPE: Genotype(normal=[('max_pool_3x3', 1), ('sep_conv_5x5', 0), ('dil_conv_3x3', 2), ('skip_connect', 0), ('sep_conv_5x5', 1), ('max_pool_3x3', 2), ('max_pool_3x3', 1), ('dil_conv_3x3', 2)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 1), ('dil_conv_5x5', 0), ('dil_conv_3x3', 0), ('sep_conv_5x5', 1), ('sep_conv_3x3', 3), ('sep_conv_5x5', 1), ('sep_conv_3x3', 4), ('avg_pool_3x3', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 9.952173928013672e+17
+JACOBIAN COV: -32.25433519443145
+SNIP: 116.8204116821289
+
+GENOTYPE: Genotype(normal=[('skip_connect', 0), ('dil_conv_5x5', 1), ('sep_conv_5x5', 1), ('sep_conv_3x3', 0), ('skip_connect', 3), ('max_pool_3x3', 2), ('dil_conv_5x5', 1), ('dil_conv_5x5', 3)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 1), ('sep_conv_5x5', 0), ('max_pool_3x3', 0), ('sep_conv_5x5', 1), ('dil_conv_5x5', 0), ('dil_conv_3x3', 3), ('dil_conv_3x3', 0), ('dil_conv_5x5', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 1.4032254765847272e+17
+JACOBIAN COV: -32.273409805043165
+SNIP: 85.43067169189453
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('dil_conv_3x3', 1), ('avg_pool_3x3', 2), ('skip_connect', 1), ('dil_conv_5x5', 2), ('skip_connect', 0), ('sep_conv_5x5', 0), ('dil_conv_5x5', 4)], normal_concat=range(2, 6), reduce=[('skip_connect', 0), ('skip_connect', 1), ('sep_conv_3x3', 1), ('sep_conv_3x3', 2), ('avg_pool_3x3', 3), ('max_pool_3x3', 1), ('sep_conv_3x3', 0), ('skip_connect', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 345277465224272.44
+JACOBIAN COV: -32.29559080422497
+SNIP: 55.071632385253906
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('skip_connect', 1), ('avg_pool_3x3', 2), ('skip_connect', 1), ('sep_conv_5x5', 3), ('sep_conv_5x5', 2), ('max_pool_3x3', 3), ('skip_connect', 1)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 0), ('skip_connect', 1), ('max_pool_3x3', 1), ('skip_connect', 2), ('dil_conv_3x3', 1), ('dil_conv_5x5', 3), ('max_pool_3x3', 2), ('dil_conv_3x3', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 2997854444582749.0
+JACOBIAN COV: -32.36234899696314
+SNIP: 96.05807495117188
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 1), ('dil_conv_5x5', 0), ('sep_conv_5x5', 0), ('sep_conv_3x3', 2), ('max_pool_3x3', 2), ('dil_conv_5x5', 3), ('dil_conv_5x5', 3), ('sep_conv_3x3', 0)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 0), ('dil_conv_5x5', 1), ('dil_conv_5x5', 1), ('max_pool_3x3', 0), ('dil_conv_5x5', 3), ('skip_connect', 1), ('sep_conv_3x3', 0), ('max_pool_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 1.9900991771413683e+18
+JACOBIAN COV: -32.318661979889605
+SNIP: 112.61940002441406
+
+GENOTYPE: Genotype(normal=[('max_pool_3x3', 1), ('avg_pool_3x3', 0), ('dil_conv_5x5', 2), ('dil_conv_3x3', 1), ('dil_conv_5x5', 1), ('avg_pool_3x3', 2), ('avg_pool_3x3', 2), ('sep_conv_3x3', 1)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 1), ('sep_conv_3x3', 0), ('sep_conv_5x5', 2), ('skip_connect', 1), ('avg_pool_3x3', 3), ('max_pool_3x3', 1), ('dil_conv_5x5', 2), ('dil_conv_3x3', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 1.0506942706318766e+16
+JACOBIAN COV: -32.286978719126324
+SNIP: 92.48802185058594
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('max_pool_3x3', 1), ('sep_conv_5x5', 1), ('sep_conv_5x5', 0), ('sep_conv_5x5', 3), ('dil_conv_5x5', 1), ('skip_connect', 0), ('skip_connect', 3)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 0), ('skip_connect', 1), ('skip_connect', 1), ('dil_conv_5x5', 0), ('max_pool_3x3', 0), ('sep_conv_3x3', 1), ('dil_conv_3x3', 0), ('dil_conv_3x3', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 2114757429373489.5
+JACOBIAN COV: -32.318927712709495
+SNIP: 84.62332153320312
+
+GENOTYPE: Genotype(normal=[('skip_connect', 1), ('sep_conv_5x5', 0), ('avg_pool_3x3', 1), ('dil_conv_3x3', 0), ('sep_conv_3x3', 1), ('max_pool_3x3', 2), ('avg_pool_3x3', 1), ('sep_conv_3x3', 2)], normal_concat=range(2, 6), reduce=[('skip_connect', 1), ('dil_conv_5x5', 0), ('max_pool_3x3', 0), ('max_pool_3x3', 1), ('avg_pool_3x3', 1), ('max_pool_3x3', 2), ('skip_connect', 0), ('dil_conv_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 331190420870272.5
+JACOBIAN COV: -32.28523559744974
+SNIP: 76.44457244873047
+
+GENOTYPE: Genotype(normal=[('max_pool_3x3', 1), ('dil_conv_3x3', 0), ('avg_pool_3x3', 0), ('sep_conv_3x3', 2), ('dil_conv_5x5', 1), ('avg_pool_3x3', 2), ('skip_connect', 2), ('avg_pool_3x3', 0)], normal_concat=range(2, 6), reduce=[('skip_connect', 1), ('dil_conv_3x3', 0), ('sep_conv_5x5', 0), ('max_pool_3x3', 2), ('avg_pool_3x3', 0), ('avg_pool_3x3', 2), ('max_pool_3x3', 0), ('sep_conv_3x3', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 1474179045648930.2
+JACOBIAN COV: -32.27319542468358
+SNIP: 68.69573211669922
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('sep_conv_5x5', 1), ('sep_conv_3x3', 1), ('avg_pool_3x3', 2), ('dil_conv_5x5', 0), ('sep_conv_5x5', 2), ('skip_connect', 1), ('sep_conv_3x3', 0)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 0), ('avg_pool_3x3', 1), ('dil_conv_5x5', 2), ('avg_pool_3x3', 0), ('sep_conv_5x5', 3), ('avg_pool_3x3', 0), ('max_pool_3x3', 3), ('dil_conv_5x5', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 1.4080407860545132e+21
+JACOBIAN COV: -32.26469905453074
+SNIP: 67.22298431396484
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('max_pool_3x3', 1), ('sep_conv_3x3', 1), ('skip_connect', 0), ('sep_conv_5x5', 3), ('sep_conv_3x3', 2), ('max_pool_3x3', 0), ('skip_connect', 3)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 1), ('max_pool_3x3', 0), ('max_pool_3x3', 1), ('sep_conv_3x3', 2), ('max_pool_3x3', 3), ('max_pool_3x3', 2), ('skip_connect', 1), ('dil_conv_3x3', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 3.532493080303549e+18
+JACOBIAN COV: -32.28805781069417
+SNIP: 74.59241485595703
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 1), ('sep_conv_5x5', 0), ('sep_conv_3x3', 1), ('max_pool_3x3', 2), ('dil_conv_3x3', 3), ('avg_pool_3x3', 1), ('skip_connect', 0), ('avg_pool_3x3', 4)], normal_concat=range(2, 6), reduce=[('sep_conv_5x5', 1), ('dil_conv_5x5', 0), ('sep_conv_3x3', 1), ('dil_conv_5x5', 0), ('dil_conv_3x3', 3), ('dil_conv_3x3', 1), ('max_pool_3x3', 4), ('sep_conv_5x5', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 5.568732900394703e+16
+JACOBIAN COV: -32.30148811574067
+SNIP: 88.97982788085938
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 0), ('max_pool_3x3', 1), ('skip_connect', 2), ('dil_conv_3x3', 0), ('skip_connect', 0), ('dil_conv_3x3', 2), ('dil_conv_3x3', 0), ('dil_conv_5x5', 1)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 1), ('sep_conv_3x3', 0), ('dil_conv_3x3', 0), ('dil_conv_3x3', 1), ('avg_pool_3x3', 3), ('sep_conv_3x3', 2), ('dil_conv_3x3', 2), ('max_pool_3x3', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 2293127216379532.0
+JACOBIAN COV: -32.31794693923653
+SNIP: 66.52946472167969
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 1), ('sep_conv_3x3', 0), ('sep_conv_3x3', 1), ('dil_conv_3x3', 2), ('avg_pool_3x3', 0), ('skip_connect', 3), ('avg_pool_3x3', 1), ('avg_pool_3x3', 4)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 0), ('sep_conv_5x5', 1), ('sep_conv_3x3', 0), ('dil_conv_5x5', 1), ('sep_conv_3x3', 1), ('sep_conv_5x5', 3), ('skip_connect', 4), ('max_pool_3x3', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 1.2487731283215867e+18
+JACOBIAN COV: -32.31001099782077
+SNIP: 84.31100463867188
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('sep_conv_5x5', 1), ('dil_conv_5x5', 1), ('avg_pool_3x3', 0), ('avg_pool_3x3', 3), ('avg_pool_3x3', 0), ('dil_conv_3x3', 3), ('sep_conv_5x5', 4)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 0), ('dil_conv_5x5', 1), ('dil_conv_5x5', 0), ('max_pool_3x3', 1), ('dil_conv_3x3', 0), ('max_pool_3x3', 3), ('max_pool_3x3', 4), ('skip_connect', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 7.909716432158561e+17
+JACOBIAN COV: -32.38588586374202
+SNIP: 54.91111755371094
+
+GENOTYPE: Genotype(normal=[('skip_connect', 0), ('avg_pool_3x3', 1), ('max_pool_3x3', 1), ('dil_conv_3x3', 2), ('max_pool_3x3', 3), ('dil_conv_3x3', 0), ('sep_conv_3x3', 3), ('sep_conv_3x3', 2)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 0), ('sep_conv_5x5', 1), ('skip_connect', 0), ('skip_connect', 2), ('skip_connect', 1), ('skip_connect', 3), ('max_pool_3x3', 3), ('skip_connect', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 3.1594515096943085e+17
+JACOBIAN COV: -32.28537761599877
+SNIP: 82.81489562988281
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 1), ('avg_pool_3x3', 0), ('avg_pool_3x3', 0), ('sep_conv_3x3', 2), ('sep_conv_3x3', 3), ('max_pool_3x3', 2), ('sep_conv_5x5', 4), ('avg_pool_3x3', 2)], normal_concat=range(2, 6), reduce=[('sep_conv_5x5', 0), ('dil_conv_3x3', 1), ('avg_pool_3x3', 0), ('max_pool_3x3', 1), ('skip_connect', 1), ('sep_conv_3x3', 2), ('skip_connect', 0), ('max_pool_3x3', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 6.0964834811656205e+22
+JACOBIAN COV: -32.270692242368796
+SNIP: 109.62690734863281
+
+GENOTYPE: Genotype(normal=[('skip_connect', 0), ('dil_conv_3x3', 1), ('max_pool_3x3', 0), ('max_pool_3x3', 2), ('avg_pool_3x3', 0), ('skip_connect', 1), ('sep_conv_3x3', 4), ('sep_conv_5x5', 0)], normal_concat=range(2, 6), reduce=[('skip_connect', 1), ('skip_connect', 0), ('dil_conv_5x5', 1), ('max_pool_3x3', 0), ('dil_conv_5x5', 2), ('avg_pool_3x3', 1), ('sep_conv_5x5', 0), ('dil_conv_5x5', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 325336629709771.5
+JACOBIAN COV: -32.25052864654392
+SNIP: 64.76254272460938
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('sep_conv_3x3', 1), ('sep_conv_3x3', 2), ('max_pool_3x3', 1), ('sep_conv_5x5', 2), ('sep_conv_5x5', 1), ('dil_conv_3x3', 0), ('avg_pool_3x3', 4)], normal_concat=range(2, 6), reduce=[('skip_connect', 1), ('dil_conv_5x5', 0), ('dil_conv_5x5', 1), ('dil_conv_3x3', 2), ('skip_connect', 0), ('dil_conv_5x5', 1), ('dil_conv_3x3', 1), ('dil_conv_5x5', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 1.306473604755391e+23
+JACOBIAN COV: -32.295120529060114
+SNIP: 108.84644317626953
+
+GENOTYPE: Genotype(normal=[('dil_conv_5x5', 0), ('avg_pool_3x3', 1), ('sep_conv_3x3', 2), ('dil_conv_3x3', 0), ('dil_conv_3x3', 0), ('sep_conv_3x3', 2), ('dil_conv_3x3', 3), ('max_pool_3x3', 1)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 1), ('sep_conv_5x5', 0), ('skip_connect', 2), ('sep_conv_5x5', 1), ('avg_pool_3x3', 3), ('skip_connect', 1), ('max_pool_3x3', 3), ('skip_connect', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 3168418537254316.5
+JACOBIAN COV: -32.26614685577377
+SNIP: 69.20504760742188
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 1), ('dil_conv_5x5', 0), ('dil_conv_3x3', 2), ('dil_conv_3x3', 0), ('sep_conv_3x3', 2), ('max_pool_3x3', 1), ('dil_conv_3x3', 3), ('avg_pool_3x3', 2)], normal_concat=range(2, 6), reduce=[('sep_conv_5x5', 1), ('skip_connect', 0), ('sep_conv_5x5', 0), ('dil_conv_3x3', 1), ('sep_conv_5x5', 0), ('max_pool_3x3', 1), ('max_pool_3x3', 1), ('dil_conv_5x5', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 2615650461727.145
+JACOBIAN COV: -32.28452154513432
+SNIP: 55.66558074951172
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 1), ('dil_conv_5x5', 0), ('sep_conv_3x3', 1), ('sep_conv_5x5', 0), ('dil_conv_5x5', 3), ('avg_pool_3x3', 0), ('dil_conv_5x5', 4), ('sep_conv_5x5', 0)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 0), ('skip_connect', 1), ('skip_connect', 2), ('sep_conv_5x5', 1), ('avg_pool_3x3', 2), ('dil_conv_5x5', 1), ('dil_conv_3x3', 1), ('avg_pool_3x3', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 1.9043539952705484e+16
+JACOBIAN COV: -32.29118922224943
+SNIP: 53.108123779296875
+
+GENOTYPE: Genotype(normal=[('skip_connect', 0), ('dil_conv_5x5', 1), ('avg_pool_3x3', 2), ('sep_conv_5x5', 0), ('sep_conv_3x3', 2), ('max_pool_3x3', 1), ('skip_connect', 4), ('dil_conv_5x5', 1)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 1), ('dil_conv_5x5', 0), ('skip_connect', 1), ('skip_connect', 0), ('dil_conv_5x5', 0), ('dil_conv_3x3', 1), ('sep_conv_5x5', 2), ('max_pool_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 1.4230666650426846e+16
+JACOBIAN COV: -32.239555168978306
+SNIP: 76.33403015136719
+
+GENOTYPE: Genotype(normal=[('max_pool_3x3', 1), ('sep_conv_3x3', 0), ('dil_conv_3x3', 1), ('avg_pool_3x3', 0), ('skip_connect', 0), ('dil_conv_3x3', 2), ('max_pool_3x3', 4), ('max_pool_3x3', 3)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 1), ('dil_conv_3x3', 0), ('avg_pool_3x3', 2), ('max_pool_3x3', 1), ('skip_connect', 2), ('sep_conv_3x3', 0), ('sep_conv_5x5', 0), ('sep_conv_5x5', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 654934682499.3657
+JACOBIAN COV: -32.290707379837116
+SNIP: 76.94776916503906
+
+GENOTYPE: Genotype(normal=[('max_pool_3x3', 1), ('max_pool_3x3', 0), ('avg_pool_3x3', 2), ('skip_connect', 0), ('sep_conv_5x5', 3), ('dil_conv_3x3', 2), ('sep_conv_5x5', 1), ('sep_conv_3x3', 0)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 0), ('max_pool_3x3', 1), ('max_pool_3x3', 1), ('avg_pool_3x3', 0), ('dil_conv_5x5', 3), ('avg_pool_3x3', 2), ('skip_connect', 3), ('dil_conv_5x5', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 2143461671563126.0
+JACOBIAN COV: -32.2584413468859
+SNIP: 61.590057373046875
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 1), ('sep_conv_3x3', 0), ('max_pool_3x3', 1), ('dil_conv_3x3', 0), ('dil_conv_5x5', 1), ('dil_conv_3x3', 0), ('dil_conv_3x3', 0), ('max_pool_3x3', 3)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 0), ('sep_conv_5x5', 1), ('max_pool_3x3', 1), ('max_pool_3x3', 2), ('sep_conv_3x3', 0), ('max_pool_3x3', 3), ('avg_pool_3x3', 2), ('dil_conv_3x3', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 662585809220983.6
+JACOBIAN COV: -32.239777625648095
+SNIP: 63.58233642578125
+
+GENOTYPE: Genotype(normal=[('dil_conv_5x5', 1), ('sep_conv_3x3', 0), ('sep_conv_3x3', 0), ('max_pool_3x3', 2), ('dil_conv_3x3', 3), ('dil_conv_3x3', 2), ('sep_conv_3x3', 4), ('avg_pool_3x3', 3)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 0), ('sep_conv_3x3', 1), ('dil_conv_5x5', 2), ('dil_conv_5x5', 1), ('skip_connect', 1), ('skip_connect', 0), ('avg_pool_3x3', 3), ('avg_pool_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 2.701909618230467e+19
+JACOBIAN COV: -32.273596462488314
+SNIP: 150.70773315429688
+
+GENOTYPE: Genotype(normal=[('sep_conv_3x3', 1), ('dil_conv_5x5', 0), ('skip_connect', 1), ('dil_conv_5x5', 2), ('max_pool_3x3', 0), ('dil_conv_5x5', 1), ('dil_conv_3x3', 2), ('avg_pool_3x3', 0)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 0), ('sep_conv_3x3', 1), ('skip_connect', 2), ('sep_conv_5x5', 1), ('sep_conv_3x3', 1), ('dil_conv_3x3', 2), ('max_pool_3x3', 4), ('avg_pool_3x3', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 1.7355588495386094e+18
+JACOBIAN COV: -32.2749047710856
+SNIP: 82.95140838623047
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('skip_connect', 1), ('sep_conv_5x5', 1), ('sep_conv_3x3', 2), ('skip_connect', 2), ('avg_pool_3x3', 0), ('dil_conv_5x5', 4), ('dil_conv_5x5', 0)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 1), ('dil_conv_5x5', 0), ('skip_connect', 0), ('skip_connect', 2), ('skip_connect', 1), ('skip_connect', 0), ('skip_connect', 0), ('max_pool_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 362586154388944.6
+JACOBIAN COV: -32.27976226327305
+SNIP: 42.04019546508789
+
+GENOTYPE: Genotype(normal=[('max_pool_3x3', 1), ('skip_connect', 0), ('sep_conv_5x5', 2), ('dil_conv_5x5', 1), ('sep_conv_5x5', 1), ('avg_pool_3x3', 0), ('skip_connect', 3), ('dil_conv_3x3', 0)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 0), ('max_pool_3x3', 1), ('avg_pool_3x3', 1), ('skip_connect', 0), ('dil_conv_5x5', 3), ('sep_conv_3x3', 0), ('skip_connect', 0), ('max_pool_3x3', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 2773183604227926.5
+JACOBIAN COV: -32.27025985858817
+SNIP: 59.072208404541016
+
+GENOTYPE: Genotype(normal=[('dil_conv_5x5', 0), ('skip_connect', 1), ('dil_conv_5x5', 1), ('avg_pool_3x3', 2), ('sep_conv_5x5', 2), ('sep_conv_3x3', 3), ('dil_conv_5x5', 2), ('max_pool_3x3', 0)], normal_concat=range(2, 6), reduce=[('skip_connect', 0), ('sep_conv_3x3', 1), ('avg_pool_3x3', 0), ('dil_conv_5x5', 2), ('dil_conv_5x5', 2), ('sep_conv_5x5', 3), ('sep_conv_5x5', 1), ('skip_connect', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 8672145152460030.0
+JACOBIAN COV: -32.28780451317493
+SNIP: 64.35738372802734
+
+GENOTYPE: Genotype(normal=[('sep_conv_3x3', 1), ('dil_conv_3x3', 0), ('sep_conv_3x3', 2), ('skip_connect', 0), ('dil_conv_3x3', 0), ('skip_connect', 2), ('max_pool_3x3', 2), ('max_pool_3x3', 1)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 1), ('sep_conv_3x3', 0), ('max_pool_3x3', 2), ('avg_pool_3x3', 1), ('skip_connect', 2), ('dil_conv_3x3', 1), ('sep_conv_3x3', 0), ('dil_conv_3x3', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 2.155624983014062e+18
+JACOBIAN COV: -32.27297997923104
+SNIP: 93.23934936523438
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 1), ('avg_pool_3x3', 0), ('dil_conv_5x5', 0), ('sep_conv_3x3', 2), ('sep_conv_5x5', 0), ('max_pool_3x3', 2), ('skip_connect', 4), ('dil_conv_5x5', 0)], normal_concat=range(2, 6), reduce=[('skip_connect', 0), ('sep_conv_5x5', 1), ('sep_conv_3x3', 1), ('dil_conv_3x3', 0), ('avg_pool_3x3', 2), ('dil_conv_3x3', 0), ('skip_connect', 3), ('dil_conv_3x3', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 2559822674275047.5
+JACOBIAN COV: -32.300047969484666
+SNIP: 82.14549255371094
+
+GENOTYPE: Genotype(normal=[('skip_connect', 1), ('dil_conv_5x5', 0), ('sep_conv_3x3', 1), ('dil_conv_5x5', 0), ('skip_connect', 0), ('dil_conv_5x5', 3), ('dil_conv_3x3', 1), ('avg_pool_3x3', 0)], normal_concat=range(2, 6), reduce=[('sep_conv_5x5', 0), ('skip_connect', 1), ('dil_conv_5x5', 0), ('max_pool_3x3', 2), ('dil_conv_3x3', 2), ('max_pool_3x3', 1), ('avg_pool_3x3', 3), ('sep_conv_5x5', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 1.895726947569561e+17
+JACOBIAN COV: -32.26721858682885
+SNIP: 66.71479797363281
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('sep_conv_3x3', 1), ('sep_conv_5x5', 2), ('sep_conv_5x5', 0), ('avg_pool_3x3', 0), ('dil_conv_3x3', 3), ('avg_pool_3x3', 4), ('sep_conv_5x5', 2)], normal_concat=range(2, 6), reduce=[('sep_conv_5x5', 1), ('dil_conv_3x3', 0), ('skip_connect', 1), ('dil_conv_5x5', 0), ('dil_conv_5x5', 0), ('skip_connect', 2), ('skip_connect', 2), ('max_pool_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 2.750725022706623e+18
+JACOBIAN COV: -32.27612916025953
+SNIP: 113.3486099243164
+
+GENOTYPE: Genotype(normal=[('max_pool_3x3', 1), ('sep_conv_3x3', 0), ('dil_conv_5x5', 0), ('skip_connect', 2), ('dil_conv_5x5', 1), ('avg_pool_3x3', 0), ('sep_conv_3x3', 3), ('sep_conv_5x5', 0)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 1), ('max_pool_3x3', 0), ('sep_conv_3x3', 2), ('sep_conv_3x3', 0), ('sep_conv_5x5', 2), ('sep_conv_5x5', 0), ('dil_conv_5x5', 1), ('max_pool_3x3', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 1002116936599696.0
+JACOBIAN COV: -32.26443831757837
+SNIP: 58.176700592041016
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('avg_pool_3x3', 1), ('avg_pool_3x3', 2), ('max_pool_3x3', 1), ('dil_conv_3x3', 2), ('sep_conv_3x3', 1), ('sep_conv_3x3', 0), ('max_pool_3x3', 4)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 0), ('max_pool_3x3', 1), ('dil_conv_5x5', 2), ('avg_pool_3x3', 0), ('sep_conv_5x5', 3), ('max_pool_3x3', 2), ('avg_pool_3x3', 4), ('dil_conv_5x5', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 7.23797274515598e+16
+JACOBIAN COV: -32.24702709506215
+SNIP: 84.94523620605469
+
+GENOTYPE: Genotype(normal=[('skip_connect', 1), ('sep_conv_3x3', 0), ('sep_conv_5x5', 1), ('sep_conv_3x3', 2), ('sep_conv_5x5', 3), ('dil_conv_5x5', 0), ('max_pool_3x3', 1), ('sep_conv_3x3', 3)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 0), ('sep_conv_3x3', 1), ('dil_conv_3x3', 2), ('avg_pool_3x3', 1), ('sep_conv_3x3', 3), ('skip_connect', 0), ('avg_pool_3x3', 0), ('sep_conv_5x5', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 1.4478015634851734e+27
+JACOBIAN COV: -32.29556803400836
+SNIP: 136.91268920898438
+
+GENOTYPE: Genotype(normal=[('skip_connect', 0), ('avg_pool_3x3', 1), ('avg_pool_3x3', 2), ('avg_pool_3x3', 0), ('skip_connect', 2), ('sep_conv_5x5', 3), ('dil_conv_5x5', 4), ('sep_conv_5x5', 2)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 1), ('max_pool_3x3', 0), ('skip_connect', 2), ('dil_conv_3x3', 0), ('sep_conv_3x3', 0), ('sep_conv_3x3', 2), ('avg_pool_3x3', 0), ('sep_conv_3x3', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 1319966462166.1436
+JACOBIAN COV: -32.36360389049484
+SNIP: 52.159454345703125
+
+GENOTYPE: Genotype(normal=[('dil_conv_5x5', 1), ('dil_conv_5x5', 0), ('dil_conv_3x3', 1), ('skip_connect', 2), ('avg_pool_3x3', 1), ('sep_conv_3x3', 2), ('max_pool_3x3', 4), ('sep_conv_3x3', 3)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 1), ('avg_pool_3x3', 0), ('avg_pool_3x3', 2), ('dil_conv_5x5', 0), ('sep_conv_3x3', 1), ('max_pool_3x3', 0), ('dil_conv_5x5', 1), ('max_pool_3x3', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 632857804799154.2
+JACOBIAN COV: -32.268140985081104
+SNIP: 114.58026885986328
+
+GENOTYPE: Genotype(normal=[('sep_conv_3x3', 0), ('max_pool_3x3', 1), ('avg_pool_3x3', 2), ('sep_conv_5x5', 1), ('sep_conv_5x5', 1), ('dil_conv_5x5', 3), ('dil_conv_5x5', 0), ('dil_conv_5x5', 4)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 1), ('max_pool_3x3', 0), ('skip_connect', 0), ('sep_conv_3x3', 2), ('skip_connect', 1), ('max_pool_3x3', 0), ('sep_conv_3x3', 4), ('dil_conv_5x5', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 5.64315013273229e+20
+JACOBIAN COV: -32.23450036118347
+SNIP: 89.27989196777344
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 0), ('sep_conv_5x5', 1), ('dil_conv_5x5', 0), ('avg_pool_3x3', 1), ('dil_conv_5x5', 0), ('dil_conv_5x5', 2), ('dil_conv_5x5', 4), ('sep_conv_5x5', 3)], normal_concat=range(2, 6), reduce=[('skip_connect', 0), ('dil_conv_5x5', 1), ('dil_conv_5x5', 1), ('sep_conv_5x5', 0), ('max_pool_3x3', 0), ('skip_connect', 2), ('max_pool_3x3', 3), ('sep_conv_5x5', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 3.141699932562365e+21
+JACOBIAN COV: -32.32514170649894
+SNIP: 56.9356575012207
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 1), ('dil_conv_3x3', 0), ('max_pool_3x3', 2), ('avg_pool_3x3', 0), ('skip_connect', 0), ('skip_connect', 1), ('avg_pool_3x3', 4), ('dil_conv_3x3', 0)], normal_concat=range(2, 6), reduce=[('skip_connect', 0), ('sep_conv_3x3', 1), ('dil_conv_5x5', 0), ('sep_conv_3x3', 2), ('avg_pool_3x3', 3), ('dil_conv_5x5', 2), ('avg_pool_3x3', 2), ('sep_conv_5x5', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 1.5958417566402947e+18
+JACOBIAN COV: -32.31993503226972
+SNIP: 83.01188659667969
+
+GENOTYPE: Genotype(normal=[('max_pool_3x3', 1), ('skip_connect', 0), ('sep_conv_5x5', 0), ('skip_connect', 2), ('avg_pool_3x3', 2), ('avg_pool_3x3', 0), ('avg_pool_3x3', 1), ('sep_conv_5x5', 4)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 1), ('skip_connect', 0), ('dil_conv_5x5', 2), ('sep_conv_5x5', 0), ('sep_conv_5x5', 0), ('sep_conv_5x5', 2), ('avg_pool_3x3', 3), ('dil_conv_3x3', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 6.387579276745343e+16
+JACOBIAN COV: -32.29112860612127
+SNIP: 80.90782928466797
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 1), ('dil_conv_5x5', 0), ('sep_conv_5x5', 0), ('sep_conv_3x3', 2), ('dil_conv_5x5', 3), ('sep_conv_5x5', 0), ('sep_conv_5x5', 3), ('dil_conv_5x5', 0)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 1), ('skip_connect', 0), ('skip_connect', 2), ('max_pool_3x3', 1), ('dil_conv_5x5', 3), ('sep_conv_5x5', 2), ('sep_conv_3x3', 1), ('dil_conv_5x5', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 3.8438565531030314e+25
+JACOBIAN COV: -32.26635290449802
+SNIP: 106.00630187988281
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('dil_conv_5x5', 1), ('sep_conv_5x5', 1), ('sep_conv_5x5', 2), ('sep_conv_5x5', 0), ('dil_conv_5x5', 2), ('skip_connect', 2), ('dil_conv_5x5', 0)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 0), ('dil_conv_5x5', 1), ('sep_conv_3x3', 0), ('sep_conv_5x5', 2), ('avg_pool_3x3', 0), ('max_pool_3x3', 1), ('avg_pool_3x3', 2), ('max_pool_3x3', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 9.115467620126352e+16
+JACOBIAN COV: -32.20787563976732
+SNIP: 69.66709899902344
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 0), ('avg_pool_3x3', 1), ('sep_conv_3x3', 1), ('sep_conv_3x3', 0), ('dil_conv_3x3', 0), ('sep_conv_3x3', 3), ('avg_pool_3x3', 1), ('sep_conv_3x3', 3)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 1), ('dil_conv_5x5', 0), ('dil_conv_5x5', 0), ('avg_pool_3x3', 1), ('avg_pool_3x3', 0), ('max_pool_3x3', 3), ('dil_conv_3x3', 0), ('skip_connect', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 68866430706920.14
+JACOBIAN COV: -32.34758900803649
+SNIP: 79.08133697509766
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 1), ('sep_conv_5x5', 0), ('sep_conv_5x5', 2), ('dil_conv_5x5', 0), ('dil_conv_3x3', 1), ('dil_conv_3x3', 3), ('sep_conv_3x3', 3), ('dil_conv_5x5', 2)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 0), ('skip_connect', 1), ('dil_conv_3x3', 0), ('skip_connect', 1), ('dil_conv_5x5', 1), ('sep_conv_3x3', 2), ('sep_conv_3x3', 4), ('skip_connect', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 1.929414715119469e+23
+JACOBIAN COV: -32.45714170936917
+SNIP: 78.496826171875
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 1), ('sep_conv_3x3', 0), ('dil_conv_5x5', 0), ('sep_conv_3x3', 2), ('max_pool_3x3', 3), ('avg_pool_3x3', 2), ('sep_conv_5x5', 2), ('avg_pool_3x3', 3)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 0), ('avg_pool_3x3', 1), ('max_pool_3x3', 2), ('skip_connect', 1), ('sep_conv_5x5', 3), ('dil_conv_3x3', 0), ('avg_pool_3x3', 0), ('dil_conv_5x5', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 6.212415269290611e+18
+JACOBIAN COV: -32.26226801123673
+SNIP: 143.41799926757812
+
+GENOTYPE: Genotype(normal=[('skip_connect', 1), ('max_pool_3x3', 0), ('dil_conv_3x3', 0), ('skip_connect', 1), ('sep_conv_5x5', 0), ('skip_connect', 2), ('skip_connect', 3), ('avg_pool_3x3', 0)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 0), ('dil_conv_5x5', 1), ('skip_connect', 2), ('dil_conv_5x5', 0), ('avg_pool_3x3', 0), ('avg_pool_3x3', 1), ('dil_conv_3x3', 3), ('skip_connect', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 29464793887.47377
+JACOBIAN COV: -32.27051846704889
+SNIP: 41.45237350463867
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 0), ('dil_conv_5x5', 1), ('dil_conv_3x3', 0), ('dil_conv_3x3', 2), ('sep_conv_5x5', 3), ('avg_pool_3x3', 2), ('avg_pool_3x3', 4), ('max_pool_3x3', 2)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 0), ('dil_conv_5x5', 1), ('avg_pool_3x3', 1), ('dil_conv_5x5', 2), ('dil_conv_3x3', 3), ('dil_conv_5x5', 0), ('sep_conv_3x3', 3), ('sep_conv_5x5', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 2.2702215949316805e+23
+JACOBIAN COV: -32.2966593663699
+SNIP: 108.43048858642578
+
+GENOTYPE: Genotype(normal=[('skip_connect', 1), ('dil_conv_5x5', 0), ('avg_pool_3x3', 1), ('skip_connect', 0), ('skip_connect', 3), ('skip_connect', 2), ('sep_conv_3x3', 3), ('sep_conv_3x3', 1)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 1), ('dil_conv_5x5', 0), ('avg_pool_3x3', 1), ('max_pool_3x3', 2), ('skip_connect', 0), ('sep_conv_3x3', 2), ('skip_connect', 0), ('max_pool_3x3', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 51278037825654.74
+JACOBIAN COV: -32.253720834553114
+SNIP: 92.19022369384766
+
+GENOTYPE: Genotype(normal=[('sep_conv_3x3', 1), ('avg_pool_3x3', 0), ('avg_pool_3x3', 2), ('avg_pool_3x3', 1), ('dil_conv_5x5', 1), ('sep_conv_3x3', 0), ('avg_pool_3x3', 1), ('avg_pool_3x3', 4)], normal_concat=range(2, 6), reduce=[('skip_connect', 1), ('avg_pool_3x3', 0), ('skip_connect', 2), ('sep_conv_3x3', 1), ('sep_conv_3x3', 2), ('dil_conv_5x5', 1), ('skip_connect', 3), ('max_pool_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 666176874213852.4
+JACOBIAN COV: -32.32134147872995
+SNIP: 60.41392517089844
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('dil_conv_5x5', 1), ('max_pool_3x3', 1), ('sep_conv_5x5', 0), ('skip_connect', 2), ('skip_connect', 1), ('sep_conv_3x3', 3), ('sep_conv_3x3', 0)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 0), ('max_pool_3x3', 1), ('avg_pool_3x3', 2), ('skip_connect', 0), ('dil_conv_5x5', 0), ('avg_pool_3x3', 2), ('avg_pool_3x3', 2), ('avg_pool_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 1414920552173925.2
+JACOBIAN COV: -32.2379670666677
+SNIP: 54.39738082885742
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('skip_connect', 1), ('avg_pool_3x3', 0), ('avg_pool_3x3', 2), ('sep_conv_3x3', 3), ('skip_connect', 2), ('dil_conv_5x5', 2), ('sep_conv_5x5', 3)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 0), ('avg_pool_3x3', 1), ('sep_conv_3x3', 0), ('sep_conv_3x3', 1), ('sep_conv_3x3', 3), ('sep_conv_3x3', 1), ('avg_pool_3x3', 0), ('sep_conv_5x5', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 8.738684771179744e+17
+JACOBIAN COV: -32.55029142180962
+SNIP: 67.36199188232422
+
+GENOTYPE: Genotype(normal=[('max_pool_3x3', 0), ('max_pool_3x3', 1), ('max_pool_3x3', 0), ('skip_connect', 1), ('avg_pool_3x3', 2), ('dil_conv_5x5', 1), ('sep_conv_5x5', 0), ('skip_connect', 3)], normal_concat=range(2, 6), reduce=[('sep_conv_5x5', 1), ('sep_conv_5x5', 0), ('sep_conv_3x3', 2), ('dil_conv_3x3', 0), ('max_pool_3x3', 0), ('avg_pool_3x3', 1), ('dil_conv_5x5', 4), ('avg_pool_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 43647540210808.15
+JACOBIAN COV: -32.26652876795656
+SNIP: 69.4183349609375
+
+GENOTYPE: Genotype(normal=[('skip_connect', 0), ('dil_conv_3x3', 1), ('sep_conv_3x3', 2), ('max_pool_3x3', 1), ('dil_conv_5x5', 2), ('skip_connect', 0), ('skip_connect', 2), ('max_pool_3x3', 4)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 1), ('dil_conv_5x5', 0), ('skip_connect', 0), ('avg_pool_3x3', 1), ('skip_connect', 1), ('skip_connect', 0), ('avg_pool_3x3', 2), ('max_pool_3x3', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 798776335829331.2
+JACOBIAN COV: -32.23625370471133
+SNIP: 51.33232879638672
+
+GENOTYPE: Genotype(normal=[('max_pool_3x3', 0), ('max_pool_3x3', 1), ('sep_conv_3x3', 1), ('dil_conv_5x5', 2), ('dil_conv_3x3', 3), ('skip_connect', 1), ('skip_connect', 1), ('max_pool_3x3', 0)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 1), ('avg_pool_3x3', 0), ('sep_conv_3x3', 1), ('avg_pool_3x3', 0), ('dil_conv_3x3', 0), ('sep_conv_3x3', 2), ('sep_conv_5x5', 2), ('dil_conv_5x5', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 1.5681758404814804e+16
+JACOBIAN COV: -32.25335401815815
+SNIP: 69.71483612060547
+
+GENOTYPE: Genotype(normal=[('sep_conv_3x3', 1), ('avg_pool_3x3', 0), ('dil_conv_3x3', 0), ('max_pool_3x3', 2), ('dil_conv_5x5', 3), ('max_pool_3x3', 1), ('sep_conv_5x5', 3), ('dil_conv_5x5', 4)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 0), ('skip_connect', 1), ('max_pool_3x3', 0), ('skip_connect', 1), ('sep_conv_3x3', 2), ('dil_conv_5x5', 0), ('sep_conv_3x3', 0), ('sep_conv_5x5', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 5.893347756775989e+23
+JACOBIAN COV: -32.2485775435961
+SNIP: 100.74687194824219
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('dil_conv_3x3', 1), ('max_pool_3x3', 2), ('max_pool_3x3', 1), ('skip_connect', 3), ('skip_connect', 2), ('dil_conv_5x5', 4), ('skip_connect', 1)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 0), ('avg_pool_3x3', 1), ('sep_conv_3x3', 0), ('skip_connect', 2), ('skip_connect', 2), ('skip_connect', 3), ('dil_conv_3x3', 3), ('max_pool_3x3', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 36638896538168.34
+JACOBIAN COV: -32.28077731569208
+SNIP: 77.1277847290039
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 0), ('dil_conv_5x5', 1), ('skip_connect', 2), ('max_pool_3x3', 0), ('skip_connect', 1), ('skip_connect', 0), ('avg_pool_3x3', 3), ('dil_conv_5x5', 4)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 0), ('sep_conv_3x3', 1), ('dil_conv_3x3', 1), ('dil_conv_3x3', 2), ('dil_conv_3x3', 2), ('dil_conv_5x5', 1), ('sep_conv_5x5', 1), ('dil_conv_5x5', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 250695393811335.16
+JACOBIAN COV: -32.269873067199484
+SNIP: 58.728973388671875
+
+GENOTYPE: Genotype(normal=[('sep_conv_3x3', 0), ('sep_conv_5x5', 1), ('sep_conv_3x3', 0), ('dil_conv_3x3', 2), ('dil_conv_5x5', 2), ('skip_connect', 0), ('sep_conv_5x5', 0), ('avg_pool_3x3', 1)], normal_concat=range(2, 6), reduce=[('sep_conv_5x5', 1), ('sep_conv_5x5', 0), ('avg_pool_3x3', 1), ('avg_pool_3x3', 2), ('sep_conv_3x3', 3), ('max_pool_3x3', 0), ('sep_conv_3x3', 4), ('sep_conv_5x5', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 782658165443500.2
+JACOBIAN COV: -32.311723077488985
+SNIP: 70.12564849853516
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('dil_conv_3x3', 1), ('dil_conv_3x3', 1), ('sep_conv_3x3', 2), ('sep_conv_5x5', 0), ('max_pool_3x3', 3), ('sep_conv_5x5', 2), ('avg_pool_3x3', 1)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 0), ('avg_pool_3x3', 1), ('dil_conv_3x3', 0), ('sep_conv_3x3', 1), ('max_pool_3x3', 0), ('dil_conv_3x3', 2), ('dil_conv_5x5', 1), ('sep_conv_3x3', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 3.2383598208055117e+18
+JACOBIAN COV: -32.283411005779186
+SNIP: 103.37669372558594
+
+GENOTYPE: Genotype(normal=[('sep_conv_3x3', 0), ('sep_conv_5x5', 1), ('dil_conv_3x3', 2), ('dil_conv_3x3', 1), ('dil_conv_3x3', 0), ('sep_conv_3x3', 2), ('avg_pool_3x3', 3), ('dil_conv_5x5', 2)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 0), ('avg_pool_3x3', 1), ('avg_pool_3x3', 1), ('skip_connect', 0), ('sep_conv_3x3', 0), ('sep_conv_5x5', 2), ('skip_connect', 3), ('dil_conv_3x3', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 2.64852756290582e+21
+JACOBIAN COV: -32.280090177656106
+SNIP: 61.77812194824219
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('max_pool_3x3', 1), ('sep_conv_3x3', 2), ('avg_pool_3x3', 0), ('avg_pool_3x3', 0), ('max_pool_3x3', 2), ('max_pool_3x3', 3), ('skip_connect', 1)], normal_concat=range(2, 6), reduce=[('skip_connect', 1), ('sep_conv_5x5', 0), ('dil_conv_5x5', 1), ('sep_conv_3x3', 0), ('sep_conv_3x3', 1), ('max_pool_3x3', 2), ('max_pool_3x3', 2), ('dil_conv_5x5', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 119075318986183.48
+JACOBIAN COV: -32.28281004201928
+SNIP: 74.3095474243164
+
+GENOTYPE: Genotype(normal=[('skip_connect', 1), ('dil_conv_5x5', 0), ('dil_conv_3x3', 1), ('sep_conv_3x3', 2), ('max_pool_3x3', 0), ('skip_connect', 3), ('sep_conv_5x5', 0), ('dil_conv_5x5', 4)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 0), ('dil_conv_3x3', 1), ('sep_conv_3x3', 0), ('skip_connect', 2), ('dil_conv_5x5', 3), ('skip_connect', 0), ('dil_conv_5x5', 3), ('skip_connect', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 1.918246027853659e+17
+JACOBIAN COV: -32.29609692714928
+SNIP: 51.37119674682617
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('skip_connect', 1), ('sep_conv_3x3', 2), ('avg_pool_3x3', 0), ('max_pool_3x3', 0), ('dil_conv_5x5', 1), ('dil_conv_3x3', 3), ('avg_pool_3x3', 0)], normal_concat=range(2, 6), reduce=[('sep_conv_5x5', 1), ('sep_conv_3x3', 0), ('max_pool_3x3', 0), ('skip_connect', 1), ('avg_pool_3x3', 3), ('dil_conv_3x3', 2), ('dil_conv_3x3', 2), ('sep_conv_5x5', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 3403121124439391.5
+JACOBIAN COV: -32.289462306053316
+SNIP: 47.61072540283203
+
+GENOTYPE: Genotype(normal=[('dil_conv_5x5', 0), ('sep_conv_5x5', 1), ('avg_pool_3x3', 1), ('skip_connect', 2), ('avg_pool_3x3', 3), ('sep_conv_5x5', 2), ('skip_connect', 1), ('sep_conv_5x5', 4)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 1), ('max_pool_3x3', 0), ('sep_conv_3x3', 2), ('dil_conv_5x5', 0), ('avg_pool_3x3', 1), ('max_pool_3x3', 3), ('dil_conv_5x5', 3), ('dil_conv_5x5', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 9.294646632774282e+22
+JACOBIAN COV: -32.28932124151051
+SNIP: 72.70890808105469
+
+GENOTYPE: Genotype(normal=[('dil_conv_5x5', 0), ('dil_conv_5x5', 1), ('sep_conv_5x5', 0), ('max_pool_3x3', 1), ('skip_connect', 3), ('sep_conv_5x5', 1), ('sep_conv_3x3', 4), ('avg_pool_3x3', 3)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 1), ('sep_conv_3x3', 0), ('dil_conv_3x3', 1), ('sep_conv_5x5', 0), ('dil_conv_5x5', 1), ('sep_conv_5x5', 3), ('sep_conv_3x3', 0), ('max_pool_3x3', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 2.3642913134541583e+18
+JACOBIAN COV: -32.378792133890215
+SNIP: 87.6878890991211
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 1), ('avg_pool_3x3', 0), ('dil_conv_5x5', 1), ('sep_conv_3x3', 2), ('dil_conv_3x3', 1), ('avg_pool_3x3', 3), ('max_pool_3x3', 4), ('skip_connect', 1)], normal_concat=range(2, 6), reduce=[('sep_conv_5x5', 1), ('dil_conv_3x3', 0), ('dil_conv_3x3', 2), ('dil_conv_5x5', 0), ('skip_connect', 0), ('avg_pool_3x3', 2), ('max_pool_3x3', 4), ('sep_conv_3x3', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 5.524663161647894e+21
+JACOBIAN COV: -32.310324103922945
+SNIP: 144.39559936523438
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('skip_connect', 1), ('sep_conv_5x5', 1), ('sep_conv_3x3', 2), ('sep_conv_5x5', 3), ('dil_conv_5x5', 1), ('sep_conv_3x3', 2), ('avg_pool_3x3', 0)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 0), ('sep_conv_5x5', 1), ('sep_conv_5x5', 0), ('skip_connect', 2), ('dil_conv_3x3', 2), ('max_pool_3x3', 1), ('avg_pool_3x3', 3), ('sep_conv_3x3', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 1.4099835066331765e+25
+JACOBIAN COV: -32.36489189112751
+SNIP: 88.31060028076172
+
+GENOTYPE: Genotype(normal=[('max_pool_3x3', 0), ('dil_conv_3x3', 1), ('max_pool_3x3', 1), ('sep_conv_3x3', 2), ('dil_conv_5x5', 2), ('sep_conv_5x5', 3), ('max_pool_3x3', 1), ('max_pool_3x3', 4)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 1), ('sep_conv_3x3', 0), ('avg_pool_3x3', 2), ('sep_conv_3x3', 0), ('sep_conv_5x5', 3), ('max_pool_3x3', 2), ('dil_conv_3x3', 4), ('skip_connect', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 6.5368375340784e+21
+JACOBIAN COV: -32.35417748975428
+SNIP: 122.475830078125
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('skip_connect', 1), ('avg_pool_3x3', 2), ('skip_connect', 0), ('avg_pool_3x3', 0), ('dil_conv_5x5', 3), ('dil_conv_5x5', 2), ('skip_connect', 1)], normal_concat=range(2, 6), reduce=[('sep_conv_5x5', 1), ('sep_conv_3x3', 0), ('max_pool_3x3', 1), ('sep_conv_5x5', 0), ('sep_conv_3x3', 2), ('dil_conv_3x3', 1), ('skip_connect', 1), ('dil_conv_3x3', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 9248904264143332.0
+JACOBIAN COV: -32.28101359513471
+SNIP: 44.53426742553711
+
+GENOTYPE: Genotype(normal=[('dil_conv_5x5', 0), ('skip_connect', 1), ('max_pool_3x3', 2), ('dil_conv_5x5', 1), ('skip_connect', 0), ('avg_pool_3x3', 2), ('skip_connect', 1), ('max_pool_3x3', 2)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 0), ('avg_pool_3x3', 1), ('skip_connect', 1), ('dil_conv_5x5', 2), ('dil_conv_3x3', 2), ('dil_conv_5x5', 3), ('skip_connect', 1), ('dil_conv_5x5', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 24696883707129.96
+JACOBIAN COV: -32.28420571193127
+SNIP: 71.65474700927734
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('avg_pool_3x3', 1), ('dil_conv_5x5', 0), ('avg_pool_3x3', 1), ('sep_conv_3x3', 2), ('sep_conv_5x5', 1), ('dil_conv_3x3', 0), ('max_pool_3x3', 2)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 0), ('sep_conv_3x3', 1), ('skip_connect', 2), ('dil_conv_5x5', 1), ('sep_conv_3x3', 1), ('dil_conv_5x5', 0), ('max_pool_3x3', 4), ('max_pool_3x3', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 8945654273573547.0
+JACOBIAN COV: -32.266837894471394
+SNIP: 68.3080825805664
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 1), ('avg_pool_3x3', 0), ('dil_conv_5x5', 2), ('sep_conv_5x5', 1), ('sep_conv_5x5', 1), ('sep_conv_5x5', 0), ('sep_conv_3x3', 1), ('skip_connect', 2)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 0), ('avg_pool_3x3', 1), ('avg_pool_3x3', 0), ('sep_conv_5x5', 1), ('skip_connect', 0), ('sep_conv_3x3', 2), ('avg_pool_3x3', 4), ('avg_pool_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 4465185231782256.0
+JACOBIAN COV: -32.280428909365256
+SNIP: 72.463134765625
+
+GENOTYPE: Genotype(normal=[('skip_connect', 1), ('dil_conv_5x5', 0), ('sep_conv_3x3', 1), ('avg_pool_3x3', 2), ('dil_conv_5x5', 3), ('dil_conv_5x5', 2), ('sep_conv_5x5', 0), ('skip_connect', 1)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 1), ('skip_connect', 0), ('max_pool_3x3', 0), ('max_pool_3x3', 2), ('dil_conv_5x5', 1), ('max_pool_3x3', 3), ('sep_conv_5x5', 0), ('dil_conv_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 6.983358569220162e+18
+JACOBIAN COV: -32.299187535161735
+SNIP: 84.06177520751953
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 1), ('avg_pool_3x3', 0), ('dil_conv_5x5', 0), ('dil_conv_5x5', 2), ('sep_conv_3x3', 0), ('sep_conv_5x5', 1), ('sep_conv_3x3', 0), ('max_pool_3x3', 4)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 0), ('dil_conv_5x5', 1), ('max_pool_3x3', 1), ('sep_conv_3x3', 2), ('avg_pool_3x3', 0), ('sep_conv_5x5', 1), ('sep_conv_3x3', 3), ('sep_conv_3x3', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 3.497728153785074e+18
+JACOBIAN COV: -32.28800154138584
+SNIP: 164.85194396972656
+
+GENOTYPE: Genotype(normal=[('dil_conv_5x5', 1), ('sep_conv_3x3', 0), ('dil_conv_5x5', 0), ('sep_conv_5x5', 2), ('skip_connect', 2), ('dil_conv_5x5', 1), ('sep_conv_5x5', 3), ('dil_conv_3x3', 2)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 0), ('max_pool_3x3', 1), ('avg_pool_3x3', 0), ('sep_conv_3x3', 1), ('max_pool_3x3', 2), ('dil_conv_5x5', 0), ('skip_connect', 4), ('sep_conv_5x5', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 2.1643326255206172e+18
+JACOBIAN COV: -32.26402816547692
+SNIP: 60.90665817260742
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 1), ('sep_conv_5x5', 0), ('sep_conv_3x3', 1), ('dil_conv_3x3', 2), ('avg_pool_3x3', 0), ('max_pool_3x3', 2), ('max_pool_3x3', 0), ('skip_connect', 4)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 1), ('sep_conv_5x5', 0), ('sep_conv_3x3', 0), ('dil_conv_3x3', 1), ('dil_conv_3x3', 1), ('sep_conv_3x3', 0), ('max_pool_3x3', 4), ('sep_conv_5x5', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 9.466381656802877e+16
+JACOBIAN COV: -32.26314582686939
+SNIP: 117.24848175048828
+
+GENOTYPE: Genotype(normal=[('max_pool_3x3', 1), ('dil_conv_5x5', 0), ('skip_connect', 2), ('max_pool_3x3', 1), ('sep_conv_3x3', 0), ('dil_conv_5x5', 3), ('max_pool_3x3', 1), ('avg_pool_3x3', 3)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 1), ('dil_conv_5x5', 0), ('sep_conv_3x3', 1), ('dil_conv_3x3', 0), ('skip_connect', 1), ('dil_conv_5x5', 0), ('dil_conv_5x5', 0), ('sep_conv_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 471747981032021.25
+JACOBIAN COV: -32.24912515656034
+SNIP: 107.88446044921875
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('sep_conv_3x3', 1), ('sep_conv_5x5', 0), ('sep_conv_3x3', 1), ('avg_pool_3x3', 2), ('avg_pool_3x3', 1), ('sep_conv_3x3', 4), ('avg_pool_3x3', 3)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 0), ('avg_pool_3x3', 1), ('dil_conv_5x5', 1), ('max_pool_3x3', 0), ('avg_pool_3x3', 2), ('sep_conv_3x3', 0), ('dil_conv_5x5', 4), ('skip_connect', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 2400994101503741.0
+JACOBIAN COV: -32.27459022294114
+SNIP: 77.74243927001953
+
+GENOTYPE: Genotype(normal=[('sep_conv_3x3', 0), ('avg_pool_3x3', 1), ('sep_conv_5x5', 0), ('skip_connect', 1), ('sep_conv_5x5', 3), ('sep_conv_5x5', 2), ('sep_conv_5x5', 2), ('sep_conv_5x5', 4)], normal_concat=range(2, 6), reduce=[('skip_connect', 0), ('avg_pool_3x3', 1), ('max_pool_3x3', 0), ('dil_conv_3x3', 2), ('max_pool_3x3', 0), ('max_pool_3x3', 3), ('skip_connect', 4), ('skip_connect', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 7.571087143806765e+21
+JACOBIAN COV: -32.33496448588927
+SNIP: 86.0372543334961
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('dil_conv_5x5', 1), ('dil_conv_3x3', 0), ('dil_conv_3x3', 2), ('sep_conv_5x5', 3), ('max_pool_3x3', 1), ('avg_pool_3x3', 1), ('skip_connect', 3)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 0), ('sep_conv_5x5', 1), ('sep_conv_5x5', 1), ('sep_conv_3x3', 2), ('max_pool_3x3', 3), ('dil_conv_3x3', 0), ('avg_pool_3x3', 1), ('skip_connect', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 4.539761409074308e+16
+JACOBIAN COV: -32.266905790665234
+SNIP: 110.33841705322266
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 0), ('max_pool_3x3', 1), ('max_pool_3x3', 1), ('sep_conv_5x5', 0), ('avg_pool_3x3', 1), ('sep_conv_3x3', 0), ('sep_conv_3x3', 2), ('max_pool_3x3', 0)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 1), ('dil_conv_5x5', 0), ('sep_conv_3x3', 1), ('max_pool_3x3', 0), ('dil_conv_5x5', 3), ('dil_conv_3x3', 2), ('dil_conv_5x5', 4), ('skip_connect', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 59483327081701.07
+JACOBIAN COV: -32.28946557019087
+SNIP: 71.35772705078125
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('dil_conv_5x5', 1), ('sep_conv_3x3', 0), ('dil_conv_5x5', 2), ('skip_connect', 2), ('dil_conv_5x5', 3), ('max_pool_3x3', 0), ('max_pool_3x3', 1)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 1), ('dil_conv_3x3', 0), ('sep_conv_3x3', 2), ('sep_conv_5x5', 1), ('skip_connect', 0), ('avg_pool_3x3', 2), ('skip_connect', 1), ('avg_pool_3x3', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 18474355981755.04
+JACOBIAN COV: -32.27861729088353
+SNIP: 69.55073547363281
+
+GENOTYPE: Genotype(normal=[('dil_conv_5x5', 1), ('sep_conv_5x5', 0), ('dil_conv_3x3', 1), ('skip_connect', 2), ('sep_conv_3x3', 3), ('avg_pool_3x3', 1), ('max_pool_3x3', 1), ('avg_pool_3x3', 3)], normal_concat=range(2, 6), reduce=[('skip_connect', 0), ('avg_pool_3x3', 1), ('sep_conv_5x5', 2), ('sep_conv_5x5', 0), ('dil_conv_3x3', 0), ('avg_pool_3x3', 3), ('max_pool_3x3', 2), ('dil_conv_3x3', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 2.865477011455297e+17
+JACOBIAN COV: -32.30423945502452
+SNIP: 78.35330200195312
+
+GENOTYPE: Genotype(normal=[('sep_conv_3x3', 1), ('avg_pool_3x3', 0), ('avg_pool_3x3', 1), ('avg_pool_3x3', 2), ('avg_pool_3x3', 1), ('sep_conv_5x5', 2), ('skip_connect', 4), ('skip_connect', 3)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 1), ('avg_pool_3x3', 0), ('dil_conv_5x5', 2), ('sep_conv_5x5', 1), ('dil_conv_3x3', 2), ('skip_connect', 0), ('skip_connect', 3), ('skip_connect', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 1.451290174806937e+17
+JACOBIAN COV: -32.67947947776076
+SNIP: 82.30110168457031
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('dil_conv_5x5', 1), ('dil_conv_5x5', 0), ('avg_pool_3x3', 1), ('sep_conv_5x5', 1), ('max_pool_3x3', 0), ('sep_conv_5x5', 0), ('avg_pool_3x3', 3)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 0), ('sep_conv_5x5', 1), ('skip_connect', 1), ('sep_conv_5x5', 0), ('dil_conv_5x5', 3), ('dil_conv_5x5', 0), ('dil_conv_5x5', 1), ('sep_conv_5x5', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 7515273029910972.0
+JACOBIAN COV: -32.27736339227326
+SNIP: 61.297828674316406
+
+GENOTYPE: Genotype(normal=[('max_pool_3x3', 1), ('sep_conv_5x5', 0), ('sep_conv_5x5', 1), ('avg_pool_3x3', 0), ('max_pool_3x3', 3), ('avg_pool_3x3', 1), ('sep_conv_3x3', 2), ('skip_connect', 4)], normal_concat=range(2, 6), reduce=[('skip_connect', 0), ('sep_conv_5x5', 1), ('avg_pool_3x3', 0), ('sep_conv_3x3', 2), ('dil_conv_5x5', 1), ('sep_conv_3x3', 2), ('max_pool_3x3', 2), ('sep_conv_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 6.601924836466757e+19
+JACOBIAN COV: -32.24439796885755
+SNIP: 151.14122009277344
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('avg_pool_3x3', 1), ('max_pool_3x3', 0), ('dil_conv_5x5', 1), ('max_pool_3x3', 0), ('avg_pool_3x3', 2), ('skip_connect', 3), ('dil_conv_5x5', 1)], normal_concat=range(2, 6), reduce=[('sep_conv_5x5', 0), ('dil_conv_5x5', 1), ('skip_connect', 0), ('avg_pool_3x3', 2), ('dil_conv_3x3', 0), ('sep_conv_5x5', 3), ('sep_conv_3x3', 3), ('sep_conv_5x5', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 195958723070079.3
+JACOBIAN COV: -32.26376072503761
+SNIP: 57.15962219238281
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 1), ('sep_conv_3x3', 0), ('max_pool_3x3', 1), ('skip_connect', 2), ('avg_pool_3x3', 3), ('avg_pool_3x3', 1), ('dil_conv_3x3', 3), ('avg_pool_3x3', 1)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 0), ('avg_pool_3x3', 1), ('avg_pool_3x3', 1), ('sep_conv_3x3', 0), ('skip_connect', 1), ('sep_conv_3x3', 2), ('dil_conv_5x5', 0), ('dil_conv_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 7.74898015956322e+16
+JACOBIAN COV: -32.249108615875855
+SNIP: 102.4205322265625
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('sep_conv_3x3', 1), ('dil_conv_5x5', 2), ('sep_conv_5x5', 1), ('skip_connect', 2), ('max_pool_3x3', 3), ('sep_conv_5x5', 3), ('avg_pool_3x3', 1)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 1), ('dil_conv_5x5', 0), ('sep_conv_5x5', 2), ('sep_conv_5x5', 0), ('dil_conv_3x3', 2), ('max_pool_3x3', 0), ('sep_conv_3x3', 1), ('avg_pool_3x3', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 4.157601183628388e+21
+JACOBIAN COV: -32.2910770572197
+SNIP: 122.64457702636719
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 1), ('dil_conv_5x5', 0), ('dil_conv_3x3', 2), ('max_pool_3x3', 1), ('max_pool_3x3', 2), ('sep_conv_5x5', 0), ('sep_conv_5x5', 4), ('dil_conv_3x3', 1)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 1), ('avg_pool_3x3', 0), ('sep_conv_5x5', 0), ('dil_conv_5x5', 1), ('avg_pool_3x3', 0), ('sep_conv_5x5', 1), ('avg_pool_3x3', 2), ('sep_conv_5x5', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 4835902543896537.0
+JACOBIAN COV: -32.317873254676364
+SNIP: 83.86251831054688
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 1), ('sep_conv_3x3', 0), ('sep_conv_5x5', 0), ('avg_pool_3x3', 1), ('skip_connect', 0), ('sep_conv_3x3', 1), ('dil_conv_5x5', 4), ('max_pool_3x3', 3)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 0), ('sep_conv_3x3', 1), ('dil_conv_5x5', 2), ('dil_conv_5x5', 0), ('skip_connect', 0), ('max_pool_3x3', 2), ('skip_connect', 0), ('skip_connect', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 6.680681233633284e+16
+JACOBIAN COV: -32.23807501005268
+SNIP: 76.45032501220703
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 1), ('avg_pool_3x3', 0), ('dil_conv_3x3', 2), ('dil_conv_5x5', 0), ('max_pool_3x3', 0), ('avg_pool_3x3', 2), ('max_pool_3x3', 3), ('dil_conv_3x3', 1)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 0), ('dil_conv_3x3', 1), ('sep_conv_5x5', 0), ('dil_conv_3x3', 1), ('skip_connect', 3), ('sep_conv_5x5', 0), ('sep_conv_3x3', 4), ('max_pool_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 8740712812878667.0
+JACOBIAN COV: -32.26444167228841
+SNIP: 106.77307891845703
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 0), ('dil_conv_5x5', 1), ('skip_connect', 2), ('sep_conv_5x5', 0), ('dil_conv_3x3', 1), ('sep_conv_5x5', 3), ('dil_conv_3x3', 1), ('max_pool_3x3', 0)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 1), ('sep_conv_3x3', 0), ('avg_pool_3x3', 0), ('dil_conv_5x5', 2), ('dil_conv_3x3', 3), ('dil_conv_3x3', 2), ('max_pool_3x3', 3), ('dil_conv_5x5', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 5425849837382025.0
+JACOBIAN COV: -32.2705716163759
+SNIP: 65.42741394042969
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('avg_pool_3x3', 1), ('dil_conv_3x3', 2), ('max_pool_3x3', 1), ('sep_conv_3x3', 3), ('sep_conv_3x3', 2), ('max_pool_3x3', 4), ('avg_pool_3x3', 3)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 0), ('max_pool_3x3', 1), ('sep_conv_3x3', 0), ('sep_conv_5x5', 1), ('avg_pool_3x3', 1), ('dil_conv_5x5', 2), ('sep_conv_3x3', 3), ('dil_conv_5x5', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 8.705967529819044e+18
+JACOBIAN COV: -32.40282186182628
+SNIP: 93.51454162597656
+
+GENOTYPE: Genotype(normal=[('dil_conv_5x5', 0), ('skip_connect', 1), ('skip_connect', 2), ('dil_conv_3x3', 1), ('sep_conv_5x5', 1), ('max_pool_3x3', 2), ('dil_conv_3x3', 1), ('max_pool_3x3', 3)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 1), ('sep_conv_3x3', 0), ('max_pool_3x3', 0), ('skip_connect', 1), ('dil_conv_5x5', 0), ('skip_connect', 2), ('sep_conv_3x3', 4), ('avg_pool_3x3', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 394731049488550.5
+JACOBIAN COV: -32.27974160459179
+SNIP: 67.35478210449219
+
+GENOTYPE: Genotype(normal=[('sep_conv_3x3', 0), ('sep_conv_5x5', 1), ('sep_conv_3x3', 0), ('dil_conv_3x3', 2), ('dil_conv_3x3', 0), ('sep_conv_5x5', 3), ('avg_pool_3x3', 3), ('dil_conv_5x5', 1)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 0), ('dil_conv_3x3', 1), ('sep_conv_5x5', 2), ('dil_conv_5x5', 1), ('avg_pool_3x3', 1), ('dil_conv_5x5', 0), ('max_pool_3x3', 2), ('avg_pool_3x3', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 5.529388329704889e+20
+JACOBIAN COV: -32.27134208773946
+SNIP: 78.63539123535156
+
+GENOTYPE: Genotype(normal=[('max_pool_3x3', 1), ('sep_conv_5x5', 0), ('dil_conv_3x3', 2), ('skip_connect', 0), ('sep_conv_5x5', 1), ('max_pool_3x3', 2), ('max_pool_3x3', 1), ('dil_conv_3x3', 2)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 1), ('dil_conv_5x5', 0), ('dil_conv_3x3', 0), ('sep_conv_5x5', 1), ('sep_conv_3x3', 3), ('sep_conv_5x5', 1), ('sep_conv_3x3', 4), ('avg_pool_3x3', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 2.3574103387248797e+17
+JACOBIAN COV: -32.266973837806255
+SNIP: 102.85607147216797
+
+GENOTYPE: Genotype(normal=[('skip_connect', 0), ('dil_conv_5x5', 1), ('sep_conv_5x5', 1), ('sep_conv_3x3', 0), ('skip_connect', 3), ('max_pool_3x3', 2), ('dil_conv_5x5', 1), ('dil_conv_5x5', 3)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 1), ('sep_conv_5x5', 0), ('max_pool_3x3', 0), ('sep_conv_5x5', 1), ('dil_conv_5x5', 0), ('dil_conv_3x3', 3), ('dil_conv_3x3', 0), ('dil_conv_5x5', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 1.9892813389812296e+18
+JACOBIAN COV: -32.300557887329504
+SNIP: 83.31816864013672
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('dil_conv_3x3', 1), ('avg_pool_3x3', 2), ('skip_connect', 1), ('dil_conv_5x5', 2), ('skip_connect', 0), ('sep_conv_5x5', 0), ('dil_conv_5x5', 4)], normal_concat=range(2, 6), reduce=[('skip_connect', 0), ('skip_connect', 1), ('sep_conv_3x3', 1), ('sep_conv_3x3', 2), ('avg_pool_3x3', 3), ('max_pool_3x3', 1), ('sep_conv_3x3', 0), ('skip_connect', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 32672014677320.383
+JACOBIAN COV: -32.254180330824546
+SNIP: 59.27190399169922
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('skip_connect', 1), ('avg_pool_3x3', 2), ('skip_connect', 1), ('sep_conv_5x5', 3), ('sep_conv_5x5', 2), ('max_pool_3x3', 3), ('skip_connect', 1)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 0), ('skip_connect', 1), ('max_pool_3x3', 1), ('skip_connect', 2), ('dil_conv_3x3', 1), ('dil_conv_5x5', 3), ('max_pool_3x3', 2), ('dil_conv_3x3', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 1.19477077316079e+18
+JACOBIAN COV: -32.3833586092634
+SNIP: 78.24771118164062
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 1), ('dil_conv_5x5', 0), ('sep_conv_5x5', 0), ('sep_conv_3x3', 2), ('max_pool_3x3', 2), ('dil_conv_5x5', 3), ('dil_conv_5x5', 3), ('sep_conv_3x3', 0)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 0), ('dil_conv_5x5', 1), ('dil_conv_5x5', 1), ('max_pool_3x3', 0), ('dil_conv_5x5', 3), ('skip_connect', 1), ('sep_conv_3x3', 0), ('max_pool_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 3.5878346123126567e+19
+JACOBIAN COV: -32.257542688300354
+SNIP: 126.92626190185547
+
+GENOTYPE: Genotype(normal=[('max_pool_3x3', 1), ('avg_pool_3x3', 0), ('dil_conv_5x5', 2), ('dil_conv_3x3', 1), ('dil_conv_5x5', 1), ('avg_pool_3x3', 2), ('avg_pool_3x3', 2), ('sep_conv_3x3', 1)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 1), ('sep_conv_3x3', 0), ('sep_conv_5x5', 2), ('skip_connect', 1), ('avg_pool_3x3', 3), ('max_pool_3x3', 1), ('dil_conv_5x5', 2), ('dil_conv_3x3', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 6.62938338811037e+17
+JACOBIAN COV: -32.25811573625397
+SNIP: 72.9087142944336
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('max_pool_3x3', 1), ('sep_conv_5x5', 1), ('sep_conv_5x5', 0), ('sep_conv_5x5', 3), ('dil_conv_5x5', 1), ('skip_connect', 0), ('skip_connect', 3)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 0), ('skip_connect', 1), ('skip_connect', 1), ('dil_conv_5x5', 0), ('max_pool_3x3', 0), ('sep_conv_3x3', 1), ('dil_conv_3x3', 0), ('dil_conv_3x3', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 3.532118761754902e+23
+JACOBIAN COV: -32.26310411940039
+SNIP: 72.90424346923828
+
+GENOTYPE: Genotype(normal=[('skip_connect', 1), ('sep_conv_5x5', 0), ('avg_pool_3x3', 1), ('dil_conv_3x3', 0), ('sep_conv_3x3', 1), ('max_pool_3x3', 2), ('avg_pool_3x3', 1), ('sep_conv_3x3', 2)], normal_concat=range(2, 6), reduce=[('skip_connect', 1), ('dil_conv_5x5', 0), ('max_pool_3x3', 0), ('max_pool_3x3', 1), ('avg_pool_3x3', 1), ('max_pool_3x3', 2), ('skip_connect', 0), ('dil_conv_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 1.1352243002855238e+16
+JACOBIAN COV: -32.30176168817883
+SNIP: 73.23092651367188
+
+GENOTYPE: Genotype(normal=[('max_pool_3x3', 1), ('dil_conv_3x3', 0), ('avg_pool_3x3', 0), ('sep_conv_3x3', 2), ('dil_conv_5x5', 1), ('avg_pool_3x3', 2), ('skip_connect', 2), ('avg_pool_3x3', 0)], normal_concat=range(2, 6), reduce=[('skip_connect', 1), ('dil_conv_3x3', 0), ('sep_conv_5x5', 0), ('max_pool_3x3', 2), ('avg_pool_3x3', 0), ('avg_pool_3x3', 2), ('max_pool_3x3', 0), ('sep_conv_3x3', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 59848584081.93949
+JACOBIAN COV: -32.26918133245347
+SNIP: 67.09996795654297
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('sep_conv_5x5', 1), ('sep_conv_3x3', 1), ('avg_pool_3x3', 2), ('dil_conv_5x5', 0), ('sep_conv_5x5', 2), ('skip_connect', 1), ('sep_conv_3x3', 0)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 0), ('avg_pool_3x3', 1), ('dil_conv_5x5', 2), ('avg_pool_3x3', 0), ('sep_conv_5x5', 3), ('avg_pool_3x3', 0), ('max_pool_3x3', 3), ('dil_conv_5x5', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 2.7792068745367076e+22
+JACOBIAN COV: -32.32748827796383
+SNIP: 79.7781753540039
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('max_pool_3x3', 1), ('sep_conv_3x3', 1), ('skip_connect', 0), ('sep_conv_5x5', 3), ('sep_conv_3x3', 2), ('max_pool_3x3', 0), ('skip_connect', 3)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 1), ('max_pool_3x3', 0), ('max_pool_3x3', 1), ('sep_conv_3x3', 2), ('max_pool_3x3', 3), ('max_pool_3x3', 2), ('skip_connect', 1), ('dil_conv_3x3', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 493764244202997.56
+JACOBIAN COV: -32.29879394522109
+SNIP: 69.46107482910156
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 1), ('sep_conv_5x5', 0), ('sep_conv_3x3', 1), ('max_pool_3x3', 2), ('dil_conv_3x3', 3), ('avg_pool_3x3', 1), ('skip_connect', 0), ('avg_pool_3x3', 4)], normal_concat=range(2, 6), reduce=[('sep_conv_5x5', 1), ('dil_conv_5x5', 0), ('sep_conv_3x3', 1), ('dil_conv_5x5', 0), ('dil_conv_3x3', 3), ('dil_conv_3x3', 1), ('max_pool_3x3', 4), ('sep_conv_5x5', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 1.2449124031758765e+17
+JACOBIAN COV: -32.27733711746485
+SNIP: 105.21438598632812
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 0), ('max_pool_3x3', 1), ('skip_connect', 2), ('dil_conv_3x3', 0), ('skip_connect', 0), ('dil_conv_3x3', 2), ('dil_conv_3x3', 0), ('dil_conv_5x5', 1)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 1), ('sep_conv_3x3', 0), ('dil_conv_3x3', 0), ('dil_conv_3x3', 1), ('avg_pool_3x3', 3), ('sep_conv_3x3', 2), ('dil_conv_3x3', 2), ('max_pool_3x3', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 3558505480247.9683
+JACOBIAN COV: -32.287593003610034
+SNIP: 55.90342712402344
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 1), ('sep_conv_3x3', 0), ('sep_conv_3x3', 1), ('dil_conv_3x3', 2), ('avg_pool_3x3', 0), ('skip_connect', 3), ('avg_pool_3x3', 1), ('avg_pool_3x3', 4)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 0), ('sep_conv_5x5', 1), ('sep_conv_3x3', 0), ('dil_conv_5x5', 1), ('sep_conv_3x3', 1), ('sep_conv_5x5', 3), ('skip_connect', 4), ('max_pool_3x3', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 1.6678078412376886e+17
+JACOBIAN COV: -32.29119832226935
+SNIP: 84.58058166503906
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('sep_conv_5x5', 1), ('dil_conv_5x5', 1), ('avg_pool_3x3', 0), ('avg_pool_3x3', 3), ('avg_pool_3x3', 0), ('dil_conv_3x3', 3), ('sep_conv_5x5', 4)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 0), ('dil_conv_5x5', 1), ('dil_conv_5x5', 0), ('max_pool_3x3', 1), ('dil_conv_3x3', 0), ('max_pool_3x3', 3), ('max_pool_3x3', 4), ('skip_connect', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 5539246523408370.0
+JACOBIAN COV: -32.58494490650458
+SNIP: 68.44880676269531
+
+GENOTYPE: Genotype(normal=[('skip_connect', 0), ('avg_pool_3x3', 1), ('max_pool_3x3', 1), ('dil_conv_3x3', 2), ('max_pool_3x3', 3), ('dil_conv_3x3', 0), ('sep_conv_3x3', 3), ('sep_conv_3x3', 2)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 0), ('sep_conv_5x5', 1), ('skip_connect', 0), ('skip_connect', 2), ('skip_connect', 1), ('skip_connect', 3), ('max_pool_3x3', 3), ('skip_connect', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 4.9265084653470335e+19
+JACOBIAN COV: -32.26521636160499
+SNIP: 80.53851318359375
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 1), ('avg_pool_3x3', 0), ('avg_pool_3x3', 0), ('sep_conv_3x3', 2), ('sep_conv_3x3', 3), ('max_pool_3x3', 2), ('sep_conv_5x5', 4), ('avg_pool_3x3', 2)], normal_concat=range(2, 6), reduce=[('sep_conv_5x5', 0), ('dil_conv_3x3', 1), ('avg_pool_3x3', 0), ('max_pool_3x3', 1), ('skip_connect', 1), ('sep_conv_3x3', 2), ('skip_connect', 0), ('max_pool_3x3', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 1.7436690283291632e+19
+JACOBIAN COV: -32.47618169895073
+SNIP: 89.373291015625
+
+GENOTYPE: Genotype(normal=[('skip_connect', 0), ('dil_conv_3x3', 1), ('max_pool_3x3', 0), ('max_pool_3x3', 2), ('avg_pool_3x3', 0), ('skip_connect', 1), ('sep_conv_3x3', 4), ('sep_conv_5x5', 0)], normal_concat=range(2, 6), reduce=[('skip_connect', 1), ('skip_connect', 0), ('dil_conv_5x5', 1), ('max_pool_3x3', 0), ('dil_conv_5x5', 2), ('avg_pool_3x3', 1), ('sep_conv_5x5', 0), ('dil_conv_5x5', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 66429876925244.125
+JACOBIAN COV: -32.25442233733535
+SNIP: 54.98648452758789
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('sep_conv_3x3', 1), ('sep_conv_3x3', 2), ('max_pool_3x3', 1), ('sep_conv_5x5', 2), ('sep_conv_5x5', 1), ('dil_conv_3x3', 0), ('avg_pool_3x3', 4)], normal_concat=range(2, 6), reduce=[('skip_connect', 1), ('dil_conv_5x5', 0), ('dil_conv_5x5', 1), ('dil_conv_3x3', 2), ('skip_connect', 0), ('dil_conv_5x5', 1), ('dil_conv_3x3', 1), ('dil_conv_5x5', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 3.6393675897634515e+20
+JACOBIAN COV: -32.29598200460584
+SNIP: 102.54424285888672
+
+GENOTYPE: Genotype(normal=[('dil_conv_5x5', 0), ('avg_pool_3x3', 1), ('sep_conv_3x3', 2), ('dil_conv_3x3', 0), ('dil_conv_3x3', 0), ('sep_conv_3x3', 2), ('dil_conv_3x3', 3), ('max_pool_3x3', 1)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 1), ('sep_conv_5x5', 0), ('skip_connect', 2), ('sep_conv_5x5', 1), ('avg_pool_3x3', 3), ('skip_connect', 1), ('max_pool_3x3', 3), ('skip_connect', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 1.19755180252148e+19
+JACOBIAN COV: -32.282883691028026
+SNIP: 65.03755187988281
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 1), ('dil_conv_5x5', 0), ('dil_conv_3x3', 2), ('dil_conv_3x3', 0), ('sep_conv_3x3', 2), ('max_pool_3x3', 1), ('dil_conv_3x3', 3), ('avg_pool_3x3', 2)], normal_concat=range(2, 6), reduce=[('sep_conv_5x5', 1), ('skip_connect', 0), ('sep_conv_5x5', 0), ('dil_conv_3x3', 1), ('sep_conv_5x5', 0), ('max_pool_3x3', 1), ('max_pool_3x3', 1), ('dil_conv_5x5', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 1.549315814353814e+16
+JACOBIAN COV: -32.282947915815484
+SNIP: 64.72735595703125
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 1), ('dil_conv_5x5', 0), ('sep_conv_3x3', 1), ('sep_conv_5x5', 0), ('dil_conv_5x5', 3), ('avg_pool_3x3', 0), ('dil_conv_5x5', 4), ('sep_conv_5x5', 0)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 0), ('skip_connect', 1), ('skip_connect', 2), ('sep_conv_5x5', 1), ('avg_pool_3x3', 2), ('dil_conv_5x5', 1), ('dil_conv_3x3', 1), ('avg_pool_3x3', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 7.695357230447702e+16
+JACOBIAN COV: -32.304778686713654
+SNIP: 56.77344512939453
+
+GENOTYPE: Genotype(normal=[('skip_connect', 0), ('dil_conv_5x5', 1), ('avg_pool_3x3', 2), ('sep_conv_5x5', 0), ('sep_conv_3x3', 2), ('max_pool_3x3', 1), ('skip_connect', 4), ('dil_conv_5x5', 1)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 1), ('dil_conv_5x5', 0), ('skip_connect', 1), ('skip_connect', 0), ('dil_conv_5x5', 0), ('dil_conv_3x3', 1), ('sep_conv_5x5', 2), ('max_pool_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 5.413122622729345e+16
+JACOBIAN COV: -32.262794927552285
+SNIP: 84.19609069824219
+
+GENOTYPE: Genotype(normal=[('max_pool_3x3', 1), ('sep_conv_3x3', 0), ('dil_conv_3x3', 1), ('avg_pool_3x3', 0), ('skip_connect', 0), ('dil_conv_3x3', 2), ('max_pool_3x3', 4), ('max_pool_3x3', 3)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 1), ('dil_conv_3x3', 0), ('avg_pool_3x3', 2), ('max_pool_3x3', 1), ('skip_connect', 2), ('sep_conv_3x3', 0), ('sep_conv_5x5', 0), ('sep_conv_5x5', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 249484876534682.75
+JACOBIAN COV: -32.265947428844626
+SNIP: 87.39501953125
+
+GENOTYPE: Genotype(normal=[('max_pool_3x3', 1), ('max_pool_3x3', 0), ('avg_pool_3x3', 2), ('skip_connect', 0), ('sep_conv_5x5', 3), ('dil_conv_3x3', 2), ('sep_conv_5x5', 1), ('sep_conv_3x3', 0)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 0), ('max_pool_3x3', 1), ('max_pool_3x3', 1), ('avg_pool_3x3', 0), ('dil_conv_5x5', 3), ('avg_pool_3x3', 2), ('skip_connect', 3), ('dil_conv_5x5', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 1.464661051469228e+16
+JACOBIAN COV: -32.25246151947108
+SNIP: 65.5072021484375
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 1), ('sep_conv_3x3', 0), ('max_pool_3x3', 1), ('dil_conv_3x3', 0), ('dil_conv_5x5', 1), ('dil_conv_3x3', 0), ('dil_conv_3x3', 0), ('max_pool_3x3', 3)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 0), ('sep_conv_5x5', 1), ('max_pool_3x3', 1), ('max_pool_3x3', 2), ('sep_conv_3x3', 0), ('max_pool_3x3', 3), ('avg_pool_3x3', 2), ('dil_conv_3x3', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 3108177120098.889
+JACOBIAN COV: -32.32744038176749
+SNIP: 85.18441009521484
+
+GENOTYPE: Genotype(normal=[('dil_conv_5x5', 1), ('sep_conv_3x3', 0), ('sep_conv_3x3', 0), ('max_pool_3x3', 2), ('dil_conv_3x3', 3), ('dil_conv_3x3', 2), ('sep_conv_3x3', 4), ('avg_pool_3x3', 3)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 0), ('sep_conv_3x3', 1), ('dil_conv_5x5', 2), ('dil_conv_5x5', 1), ('skip_connect', 1), ('skip_connect', 0), ('avg_pool_3x3', 3), ('avg_pool_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 5.062634420859374e+17
+JACOBIAN COV: -32.26116476973263
+SNIP: 109.29475402832031
+
+GENOTYPE: Genotype(normal=[('sep_conv_3x3', 1), ('dil_conv_5x5', 0), ('skip_connect', 1), ('dil_conv_5x5', 2), ('max_pool_3x3', 0), ('dil_conv_5x5', 1), ('dil_conv_3x3', 2), ('avg_pool_3x3', 0)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 0), ('sep_conv_3x3', 1), ('skip_connect', 2), ('sep_conv_5x5', 1), ('sep_conv_3x3', 1), ('dil_conv_3x3', 2), ('max_pool_3x3', 4), ('avg_pool_3x3', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 22193183470041.51
+JACOBIAN COV: -32.275980445133044
+SNIP: 67.56949615478516
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('skip_connect', 1), ('sep_conv_5x5', 1), ('sep_conv_3x3', 2), ('skip_connect', 2), ('avg_pool_3x3', 0), ('dil_conv_5x5', 4), ('dil_conv_5x5', 0)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 1), ('dil_conv_5x5', 0), ('skip_connect', 0), ('skip_connect', 2), ('skip_connect', 1), ('skip_connect', 0), ('skip_connect', 0), ('max_pool_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 241461834254983.38
+JACOBIAN COV: -32.25797017265543
+SNIP: 47.66693115234375
+
+GENOTYPE: Genotype(normal=[('max_pool_3x3', 1), ('skip_connect', 0), ('sep_conv_5x5', 2), ('dil_conv_5x5', 1), ('sep_conv_5x5', 1), ('avg_pool_3x3', 0), ('skip_connect', 3), ('dil_conv_3x3', 0)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 0), ('max_pool_3x3', 1), ('avg_pool_3x3', 1), ('skip_connect', 0), ('dil_conv_5x5', 3), ('sep_conv_3x3', 0), ('skip_connect', 0), ('max_pool_3x3', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 1351117886428280.0
+JACOBIAN COV: -32.2395334914043
+SNIP: 56.166996002197266
+
+GENOTYPE: Genotype(normal=[('dil_conv_5x5', 0), ('skip_connect', 1), ('dil_conv_5x5', 1), ('avg_pool_3x3', 2), ('sep_conv_5x5', 2), ('sep_conv_3x3', 3), ('dil_conv_5x5', 2), ('max_pool_3x3', 0)], normal_concat=range(2, 6), reduce=[('skip_connect', 0), ('sep_conv_3x3', 1), ('avg_pool_3x3', 0), ('dil_conv_5x5', 2), ('dil_conv_5x5', 2), ('sep_conv_5x5', 3), ('sep_conv_5x5', 1), ('skip_connect', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 1.463754883007046e+21
+JACOBIAN COV: -32.32034200951577
+SNIP: 63.25143814086914
+
+GENOTYPE: Genotype(normal=[('sep_conv_3x3', 1), ('dil_conv_3x3', 0), ('sep_conv_3x3', 2), ('skip_connect', 0), ('dil_conv_3x3', 0), ('skip_connect', 2), ('max_pool_3x3', 2), ('max_pool_3x3', 1)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 1), ('sep_conv_3x3', 0), ('max_pool_3x3', 2), ('avg_pool_3x3', 1), ('skip_connect', 2), ('dil_conv_3x3', 1), ('sep_conv_3x3', 0), ('dil_conv_3x3', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 6753484484631.702
+JACOBIAN COV: -32.356883937582246
+SNIP: 93.24665069580078
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 1), ('avg_pool_3x3', 0), ('dil_conv_5x5', 0), ('sep_conv_3x3', 2), ('sep_conv_5x5', 0), ('max_pool_3x3', 2), ('skip_connect', 4), ('dil_conv_5x5', 0)], normal_concat=range(2, 6), reduce=[('skip_connect', 0), ('sep_conv_5x5', 1), ('sep_conv_3x3', 1), ('dil_conv_3x3', 0), ('avg_pool_3x3', 2), ('dil_conv_3x3', 0), ('skip_connect', 3), ('dil_conv_3x3', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 2116144264771061.5
+JACOBIAN COV: -32.24472211521884
+SNIP: 99.64254760742188
+
+GENOTYPE: Genotype(normal=[('skip_connect', 1), ('dil_conv_5x5', 0), ('sep_conv_3x3', 1), ('dil_conv_5x5', 0), ('skip_connect', 0), ('dil_conv_5x5', 3), ('dil_conv_3x3', 1), ('avg_pool_3x3', 0)], normal_concat=range(2, 6), reduce=[('sep_conv_5x5', 0), ('skip_connect', 1), ('dil_conv_5x5', 0), ('max_pool_3x3', 2), ('dil_conv_3x3', 2), ('max_pool_3x3', 1), ('avg_pool_3x3', 3), ('sep_conv_5x5', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 121352620371995.27
+JACOBIAN COV: -32.28146173430319
+SNIP: 49.630332946777344
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('sep_conv_3x3', 1), ('sep_conv_5x5', 2), ('sep_conv_5x5', 0), ('avg_pool_3x3', 0), ('dil_conv_3x3', 3), ('avg_pool_3x3', 4), ('sep_conv_5x5', 2)], normal_concat=range(2, 6), reduce=[('sep_conv_5x5', 1), ('dil_conv_3x3', 0), ('skip_connect', 1), ('dil_conv_5x5', 0), ('dil_conv_5x5', 0), ('skip_connect', 2), ('skip_connect', 2), ('max_pool_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 1.2311311039555708e+24
+JACOBIAN COV: -32.26711302189436
+SNIP: 112.50048065185547
+
+GENOTYPE: Genotype(normal=[('max_pool_3x3', 1), ('sep_conv_3x3', 0), ('dil_conv_5x5', 0), ('skip_connect', 2), ('dil_conv_5x5', 1), ('avg_pool_3x3', 0), ('sep_conv_3x3', 3), ('sep_conv_5x5', 0)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 1), ('max_pool_3x3', 0), ('sep_conv_3x3', 2), ('sep_conv_3x3', 0), ('sep_conv_5x5', 2), ('sep_conv_5x5', 0), ('dil_conv_5x5', 1), ('max_pool_3x3', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 445978362511965.75
+JACOBIAN COV: -32.25646236821984
+SNIP: 77.50801849365234
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('avg_pool_3x3', 1), ('avg_pool_3x3', 2), ('max_pool_3x3', 1), ('dil_conv_3x3', 2), ('sep_conv_3x3', 1), ('sep_conv_3x3', 0), ('max_pool_3x3', 4)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 0), ('max_pool_3x3', 1), ('dil_conv_5x5', 2), ('avg_pool_3x3', 0), ('sep_conv_5x5', 3), ('max_pool_3x3', 2), ('avg_pool_3x3', 4), ('dil_conv_5x5', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 332000741410106.1
+JACOBIAN COV: -32.251759264999556
+SNIP: 96.49861145019531
+
+GENOTYPE: Genotype(normal=[('skip_connect', 1), ('sep_conv_3x3', 0), ('sep_conv_5x5', 1), ('sep_conv_3x3', 2), ('sep_conv_5x5', 3), ('dil_conv_5x5', 0), ('max_pool_3x3', 1), ('sep_conv_3x3', 3)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 0), ('sep_conv_3x3', 1), ('dil_conv_3x3', 2), ('avg_pool_3x3', 1), ('sep_conv_3x3', 3), ('skip_connect', 0), ('avg_pool_3x3', 0), ('sep_conv_5x5', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 1.0929143428886515e+23
+JACOBIAN COV: -32.28464404898858
+SNIP: 116.12931823730469
+
+GENOTYPE: Genotype(normal=[('skip_connect', 0), ('avg_pool_3x3', 1), ('avg_pool_3x3', 2), ('avg_pool_3x3', 0), ('skip_connect', 2), ('sep_conv_5x5', 3), ('dil_conv_5x5', 4), ('sep_conv_5x5', 2)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 1), ('max_pool_3x3', 0), ('skip_connect', 2), ('dil_conv_3x3', 0), ('sep_conv_3x3', 0), ('sep_conv_3x3', 2), ('avg_pool_3x3', 0), ('sep_conv_3x3', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 4.067644402960462e+19
+JACOBIAN COV: -32.3394861723636
+SNIP: 54.89881896972656
+
+GENOTYPE: Genotype(normal=[('dil_conv_5x5', 1), ('dil_conv_5x5', 0), ('dil_conv_3x3', 1), ('skip_connect', 2), ('avg_pool_3x3', 1), ('sep_conv_3x3', 2), ('max_pool_3x3', 4), ('sep_conv_3x3', 3)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 1), ('avg_pool_3x3', 0), ('avg_pool_3x3', 2), ('dil_conv_5x5', 0), ('sep_conv_3x3', 1), ('max_pool_3x3', 0), ('dil_conv_5x5', 1), ('max_pool_3x3', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 1.2097486734516322e+17
+JACOBIAN COV: -32.31515200180028
+SNIP: 122.66814422607422
+
+GENOTYPE: Genotype(normal=[('sep_conv_3x3', 0), ('max_pool_3x3', 1), ('avg_pool_3x3', 2), ('sep_conv_5x5', 1), ('sep_conv_5x5', 1), ('dil_conv_5x5', 3), ('dil_conv_5x5', 0), ('dil_conv_5x5', 4)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 1), ('max_pool_3x3', 0), ('skip_connect', 0), ('sep_conv_3x3', 2), ('skip_connect', 1), ('max_pool_3x3', 0), ('sep_conv_3x3', 4), ('dil_conv_5x5', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 1.511480584030743e+18
+JACOBIAN COV: -32.26313659349397
+SNIP: 83.82703399658203
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 0), ('sep_conv_5x5', 1), ('dil_conv_5x5', 0), ('avg_pool_3x3', 1), ('dil_conv_5x5', 0), ('dil_conv_5x5', 2), ('dil_conv_5x5', 4), ('sep_conv_5x5', 3)], normal_concat=range(2, 6), reduce=[('skip_connect', 0), ('dil_conv_5x5', 1), ('dil_conv_5x5', 1), ('sep_conv_5x5', 0), ('max_pool_3x3', 0), ('skip_connect', 2), ('max_pool_3x3', 3), ('sep_conv_5x5', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 3646547336515.1694
+JACOBIAN COV: -32.29359070959474
+SNIP: 75.84500122070312
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 1), ('dil_conv_3x3', 0), ('max_pool_3x3', 2), ('avg_pool_3x3', 0), ('skip_connect', 0), ('skip_connect', 1), ('avg_pool_3x3', 4), ('dil_conv_3x3', 0)], normal_concat=range(2, 6), reduce=[('skip_connect', 0), ('sep_conv_3x3', 1), ('dil_conv_5x5', 0), ('sep_conv_3x3', 2), ('avg_pool_3x3', 3), ('dil_conv_5x5', 2), ('avg_pool_3x3', 2), ('sep_conv_5x5', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 2964841238377354.0
+JACOBIAN COV: -32.309341437761006
+SNIP: 80.54723358154297
+
+GENOTYPE: Genotype(normal=[('max_pool_3x3', 1), ('skip_connect', 0), ('sep_conv_5x5', 0), ('skip_connect', 2), ('avg_pool_3x3', 2), ('avg_pool_3x3', 0), ('avg_pool_3x3', 1), ('sep_conv_5x5', 4)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 1), ('skip_connect', 0), ('dil_conv_5x5', 2), ('sep_conv_5x5', 0), ('sep_conv_5x5', 0), ('sep_conv_5x5', 2), ('avg_pool_3x3', 3), ('dil_conv_3x3', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 401259588361128.94
+JACOBIAN COV: -32.21292170822397
+SNIP: 78.76207733154297
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 1), ('dil_conv_5x5', 0), ('sep_conv_5x5', 0), ('sep_conv_3x3', 2), ('dil_conv_5x5', 3), ('sep_conv_5x5', 0), ('sep_conv_5x5', 3), ('dil_conv_5x5', 0)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 1), ('skip_connect', 0), ('skip_connect', 2), ('max_pool_3x3', 1), ('dil_conv_5x5', 3), ('sep_conv_5x5', 2), ('sep_conv_3x3', 1), ('dil_conv_5x5', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 1.72999545944538e+17
+JACOBIAN COV: -32.25386263825647
+SNIP: 72.21707153320312
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('dil_conv_5x5', 1), ('sep_conv_5x5', 1), ('sep_conv_5x5', 2), ('sep_conv_5x5', 0), ('dil_conv_5x5', 2), ('skip_connect', 2), ('dil_conv_5x5', 0)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 0), ('dil_conv_5x5', 1), ('sep_conv_3x3', 0), ('sep_conv_5x5', 2), ('avg_pool_3x3', 0), ('max_pool_3x3', 1), ('avg_pool_3x3', 2), ('max_pool_3x3', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 3.867585722900861e+19
+JACOBIAN COV: -32.28901120519461
+SNIP: 60.27803039550781
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 0), ('avg_pool_3x3', 1), ('sep_conv_3x3', 1), ('sep_conv_3x3', 0), ('dil_conv_3x3', 0), ('sep_conv_3x3', 3), ('avg_pool_3x3', 1), ('sep_conv_3x3', 3)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 1), ('dil_conv_5x5', 0), ('dil_conv_5x5', 0), ('avg_pool_3x3', 1), ('avg_pool_3x3', 0), ('max_pool_3x3', 3), ('dil_conv_3x3', 0), ('skip_connect', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 3.612458499449768e+16
+JACOBIAN COV: -32.3149000750267
+SNIP: 72.23760223388672
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 1), ('sep_conv_5x5', 0), ('sep_conv_5x5', 2), ('dil_conv_5x5', 0), ('dil_conv_3x3', 1), ('dil_conv_3x3', 3), ('sep_conv_3x3', 3), ('dil_conv_5x5', 2)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 0), ('skip_connect', 1), ('dil_conv_3x3', 0), ('skip_connect', 1), ('dil_conv_5x5', 1), ('sep_conv_3x3', 2), ('sep_conv_3x3', 4), ('skip_connect', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 6.610929450722597e+24
+JACOBIAN COV: -32.289534683438056
+SNIP: 99.94393157958984
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 1), ('sep_conv_3x3', 0), ('dil_conv_5x5', 0), ('sep_conv_3x3', 2), ('max_pool_3x3', 3), ('avg_pool_3x3', 2), ('sep_conv_5x5', 2), ('avg_pool_3x3', 3)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 0), ('avg_pool_3x3', 1), ('max_pool_3x3', 2), ('skip_connect', 1), ('sep_conv_5x5', 3), ('dil_conv_3x3', 0), ('avg_pool_3x3', 0), ('dil_conv_5x5', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 6.806804023816338e+18
+JACOBIAN COV: -32.26491372629248
+SNIP: 118.4349594116211
+
+GENOTYPE: Genotype(normal=[('skip_connect', 1), ('max_pool_3x3', 0), ('dil_conv_3x3', 0), ('skip_connect', 1), ('sep_conv_5x5', 0), ('skip_connect', 2), ('skip_connect', 3), ('avg_pool_3x3', 0)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 0), ('dil_conv_5x5', 1), ('skip_connect', 2), ('dil_conv_5x5', 0), ('avg_pool_3x3', 0), ('avg_pool_3x3', 1), ('dil_conv_3x3', 3), ('skip_connect', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 1380177731350.1633
+JACOBIAN COV: -32.23908230990518
+SNIP: 33.90958786010742
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 0), ('dil_conv_5x5', 1), ('dil_conv_3x3', 0), ('dil_conv_3x3', 2), ('sep_conv_5x5', 3), ('avg_pool_3x3', 2), ('avg_pool_3x3', 4), ('max_pool_3x3', 2)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 0), ('dil_conv_5x5', 1), ('avg_pool_3x3', 1), ('dil_conv_5x5', 2), ('dil_conv_3x3', 3), ('dil_conv_5x5', 0), ('sep_conv_3x3', 3), ('sep_conv_5x5', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 2.2423106642048657e+25
+JACOBIAN COV: -32.246356234737256
+SNIP: 94.62249755859375
+
+GENOTYPE: Genotype(normal=[('skip_connect', 1), ('dil_conv_5x5', 0), ('avg_pool_3x3', 1), ('skip_connect', 0), ('skip_connect', 3), ('skip_connect', 2), ('sep_conv_3x3', 3), ('sep_conv_3x3', 1)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 1), ('dil_conv_5x5', 0), ('avg_pool_3x3', 1), ('max_pool_3x3', 2), ('skip_connect', 0), ('sep_conv_3x3', 2), ('skip_connect', 0), ('max_pool_3x3', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 125911692433914.81
+JACOBIAN COV: -32.30225825292444
+SNIP: 69.11088562011719
+
+GENOTYPE: Genotype(normal=[('sep_conv_3x3', 1), ('avg_pool_3x3', 0), ('avg_pool_3x3', 2), ('avg_pool_3x3', 1), ('dil_conv_5x5', 1), ('sep_conv_3x3', 0), ('avg_pool_3x3', 1), ('avg_pool_3x3', 4)], normal_concat=range(2, 6), reduce=[('skip_connect', 1), ('avg_pool_3x3', 0), ('skip_connect', 2), ('sep_conv_3x3', 1), ('sep_conv_3x3', 2), ('dil_conv_5x5', 1), ('skip_connect', 3), ('max_pool_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 753703342249050.8
+JACOBIAN COV: -32.30064544172377
+SNIP: 78.71874237060547
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('dil_conv_5x5', 1), ('max_pool_3x3', 1), ('sep_conv_5x5', 0), ('skip_connect', 2), ('skip_connect', 1), ('sep_conv_3x3', 3), ('sep_conv_3x3', 0)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 0), ('max_pool_3x3', 1), ('avg_pool_3x3', 2), ('skip_connect', 0), ('dil_conv_5x5', 0), ('avg_pool_3x3', 2), ('avg_pool_3x3', 2), ('avg_pool_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 1106206975676.0662
+JACOBIAN COV: -32.2808988485491
+SNIP: 62.94435501098633
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('skip_connect', 1), ('avg_pool_3x3', 0), ('avg_pool_3x3', 2), ('sep_conv_3x3', 3), ('skip_connect', 2), ('dil_conv_5x5', 2), ('sep_conv_5x5', 3)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 0), ('avg_pool_3x3', 1), ('sep_conv_3x3', 0), ('sep_conv_3x3', 1), ('sep_conv_3x3', 3), ('sep_conv_3x3', 1), ('avg_pool_3x3', 0), ('sep_conv_5x5', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 684882544211142.2
+JACOBIAN COV: -33.01427584744086
+SNIP: 64.1240234375
+
+GENOTYPE: Genotype(normal=[('max_pool_3x3', 0), ('max_pool_3x3', 1), ('max_pool_3x3', 0), ('skip_connect', 1), ('avg_pool_3x3', 2), ('dil_conv_5x5', 1), ('sep_conv_5x5', 0), ('skip_connect', 3)], normal_concat=range(2, 6), reduce=[('sep_conv_5x5', 1), ('sep_conv_5x5', 0), ('sep_conv_3x3', 2), ('dil_conv_3x3', 0), ('max_pool_3x3', 0), ('avg_pool_3x3', 1), ('dil_conv_5x5', 4), ('avg_pool_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 3001166739858879.0
+JACOBIAN COV: -32.258253369013126
+SNIP: 67.91883850097656
+
+GENOTYPE: Genotype(normal=[('skip_connect', 0), ('dil_conv_3x3', 1), ('sep_conv_3x3', 2), ('max_pool_3x3', 1), ('dil_conv_5x5', 2), ('skip_connect', 0), ('skip_connect', 2), ('max_pool_3x3', 4)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 1), ('dil_conv_5x5', 0), ('skip_connect', 0), ('avg_pool_3x3', 1), ('skip_connect', 1), ('skip_connect', 0), ('avg_pool_3x3', 2), ('max_pool_3x3', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 11844814245210.912
+JACOBIAN COV: -32.25306031061393
+SNIP: 63.78398895263672
+
+GENOTYPE: Genotype(normal=[('max_pool_3x3', 0), ('max_pool_3x3', 1), ('sep_conv_3x3', 1), ('dil_conv_5x5', 2), ('dil_conv_3x3', 3), ('skip_connect', 1), ('skip_connect', 1), ('max_pool_3x3', 0)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 1), ('avg_pool_3x3', 0), ('sep_conv_3x3', 1), ('avg_pool_3x3', 0), ('dil_conv_3x3', 0), ('sep_conv_3x3', 2), ('sep_conv_5x5', 2), ('dil_conv_5x5', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 219561647553661.34
+JACOBIAN COV: -32.27133258204516
+SNIP: 61.43701171875
+
+GENOTYPE: Genotype(normal=[('sep_conv_3x3', 1), ('avg_pool_3x3', 0), ('dil_conv_3x3', 0), ('max_pool_3x3', 2), ('dil_conv_5x5', 3), ('max_pool_3x3', 1), ('sep_conv_5x5', 3), ('dil_conv_5x5', 4)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 0), ('skip_connect', 1), ('max_pool_3x3', 0), ('skip_connect', 1), ('sep_conv_3x3', 2), ('dil_conv_5x5', 0), ('sep_conv_3x3', 0), ('sep_conv_5x5', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 6356523859827090.0
+JACOBIAN COV: -32.28060218619144
+SNIP: 95.93627166748047
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('dil_conv_3x3', 1), ('max_pool_3x3', 2), ('max_pool_3x3', 1), ('skip_connect', 3), ('skip_connect', 2), ('dil_conv_5x5', 4), ('skip_connect', 1)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 0), ('avg_pool_3x3', 1), ('sep_conv_3x3', 0), ('skip_connect', 2), ('skip_connect', 2), ('skip_connect', 3), ('dil_conv_3x3', 3), ('max_pool_3x3', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 30113340750022.332
+JACOBIAN COV: -32.30139842738376
+SNIP: 72.1360855102539
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 0), ('dil_conv_5x5', 1), ('skip_connect', 2), ('max_pool_3x3', 0), ('skip_connect', 1), ('skip_connect', 0), ('avg_pool_3x3', 3), ('dil_conv_5x5', 4)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 0), ('sep_conv_3x3', 1), ('dil_conv_3x3', 1), ('dil_conv_3x3', 2), ('dil_conv_3x3', 2), ('dil_conv_5x5', 1), ('sep_conv_5x5', 1), ('dil_conv_5x5', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 9435613130271198.0
+JACOBIAN COV: -32.27811719396014
+SNIP: 75.2472152709961
+
+GENOTYPE: Genotype(normal=[('sep_conv_3x3', 0), ('sep_conv_5x5', 1), ('sep_conv_3x3', 0), ('dil_conv_3x3', 2), ('dil_conv_5x5', 2), ('skip_connect', 0), ('sep_conv_5x5', 0), ('avg_pool_3x3', 1)], normal_concat=range(2, 6), reduce=[('sep_conv_5x5', 1), ('sep_conv_5x5', 0), ('avg_pool_3x3', 1), ('avg_pool_3x3', 2), ('sep_conv_3x3', 3), ('max_pool_3x3', 0), ('sep_conv_3x3', 4), ('sep_conv_5x5', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 9.226616056812376e+16
+JACOBIAN COV: -32.28928746858635
+SNIP: 76.30911254882812
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('dil_conv_3x3', 1), ('dil_conv_3x3', 1), ('sep_conv_3x3', 2), ('sep_conv_5x5', 0), ('max_pool_3x3', 3), ('sep_conv_5x5', 2), ('avg_pool_3x3', 1)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 0), ('avg_pool_3x3', 1), ('dil_conv_3x3', 0), ('sep_conv_3x3', 1), ('max_pool_3x3', 0), ('dil_conv_3x3', 2), ('dil_conv_5x5', 1), ('sep_conv_3x3', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 6.279975612352653e+18
+JACOBIAN COV: -32.25482636654
+SNIP: 140.5236358642578
+
+GENOTYPE: Genotype(normal=[('sep_conv_3x3', 0), ('sep_conv_5x5', 1), ('dil_conv_3x3', 2), ('dil_conv_3x3', 1), ('dil_conv_3x3', 0), ('sep_conv_3x3', 2), ('avg_pool_3x3', 3), ('dil_conv_5x5', 2)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 0), ('avg_pool_3x3', 1), ('avg_pool_3x3', 1), ('skip_connect', 0), ('sep_conv_3x3', 0), ('sep_conv_5x5', 2), ('skip_connect', 3), ('dil_conv_3x3', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 2.4201363697772416e+16
+JACOBIAN COV: -32.351569810960726
+SNIP: 73.35952758789062
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('max_pool_3x3', 1), ('sep_conv_3x3', 2), ('avg_pool_3x3', 0), ('avg_pool_3x3', 0), ('max_pool_3x3', 2), ('max_pool_3x3', 3), ('skip_connect', 1)], normal_concat=range(2, 6), reduce=[('skip_connect', 1), ('sep_conv_5x5', 0), ('dil_conv_5x5', 1), ('sep_conv_3x3', 0), ('sep_conv_3x3', 1), ('max_pool_3x3', 2), ('max_pool_3x3', 2), ('dil_conv_5x5', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 487414004752.2838
+JACOBIAN COV: -32.290993262054
+SNIP: 91.28034973144531
+
+GENOTYPE: Genotype(normal=[('skip_connect', 1), ('dil_conv_5x5', 0), ('dil_conv_3x3', 1), ('sep_conv_3x3', 2), ('max_pool_3x3', 0), ('skip_connect', 3), ('sep_conv_5x5', 0), ('dil_conv_5x5', 4)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 0), ('dil_conv_3x3', 1), ('sep_conv_3x3', 0), ('skip_connect', 2), ('dil_conv_5x5', 3), ('skip_connect', 0), ('dil_conv_5x5', 3), ('skip_connect', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 3.2871687977826504e+16
+JACOBIAN COV: -32.274760222631556
+SNIP: 54.523433685302734
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('skip_connect', 1), ('sep_conv_3x3', 2), ('avg_pool_3x3', 0), ('max_pool_3x3', 0), ('dil_conv_5x5', 1), ('dil_conv_3x3', 3), ('avg_pool_3x3', 0)], normal_concat=range(2, 6), reduce=[('sep_conv_5x5', 1), ('sep_conv_3x3', 0), ('max_pool_3x3', 0), ('skip_connect', 1), ('avg_pool_3x3', 3), ('dil_conv_3x3', 2), ('dil_conv_3x3', 2), ('sep_conv_5x5', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 1.84749026784634e+19
+JACOBIAN COV: -32.24309069482331
+SNIP: 53.71832275390625
+
+GENOTYPE: Genotype(normal=[('dil_conv_5x5', 0), ('sep_conv_5x5', 1), ('avg_pool_3x3', 1), ('skip_connect', 2), ('avg_pool_3x3', 3), ('sep_conv_5x5', 2), ('skip_connect', 1), ('sep_conv_5x5', 4)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 1), ('max_pool_3x3', 0), ('sep_conv_3x3', 2), ('dil_conv_5x5', 0), ('avg_pool_3x3', 1), ('max_pool_3x3', 3), ('dil_conv_5x5', 3), ('dil_conv_5x5', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 9.53538466718366e+24
+JACOBIAN COV: -32.29039377837879
+SNIP: 110.318115234375
+
+GENOTYPE: Genotype(normal=[('dil_conv_5x5', 0), ('dil_conv_5x5', 1), ('sep_conv_5x5', 0), ('max_pool_3x3', 1), ('skip_connect', 3), ('sep_conv_5x5', 1), ('sep_conv_3x3', 4), ('avg_pool_3x3', 3)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 1), ('sep_conv_3x3', 0), ('dil_conv_3x3', 1), ('sep_conv_5x5', 0), ('dil_conv_5x5', 1), ('sep_conv_5x5', 3), ('sep_conv_3x3', 0), ('max_pool_3x3', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 3.5730451250409825e+21
+JACOBIAN COV: -32.34483799118942
+SNIP: 87.99687194824219
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 1), ('avg_pool_3x3', 0), ('dil_conv_5x5', 1), ('sep_conv_3x3', 2), ('dil_conv_3x3', 1), ('avg_pool_3x3', 3), ('max_pool_3x3', 4), ('skip_connect', 1)], normal_concat=range(2, 6), reduce=[('sep_conv_5x5', 1), ('dil_conv_3x3', 0), ('dil_conv_3x3', 2), ('dil_conv_5x5', 0), ('skip_connect', 0), ('avg_pool_3x3', 2), ('max_pool_3x3', 4), ('sep_conv_3x3', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 3.558858443242894e+22
+JACOBIAN COV: -32.40649574063824
+SNIP: 146.17385864257812
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('skip_connect', 1), ('sep_conv_5x5', 1), ('sep_conv_3x3', 2), ('sep_conv_5x5', 3), ('dil_conv_5x5', 1), ('sep_conv_3x3', 2), ('avg_pool_3x3', 0)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 0), ('sep_conv_5x5', 1), ('sep_conv_5x5', 0), ('skip_connect', 2), ('dil_conv_3x3', 2), ('max_pool_3x3', 1), ('avg_pool_3x3', 3), ('sep_conv_3x3', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 1.6191841018644518e+23
+JACOBIAN COV: -32.31837808450952
+SNIP: 72.51985931396484
+
+GENOTYPE: Genotype(normal=[('max_pool_3x3', 0), ('dil_conv_3x3', 1), ('max_pool_3x3', 1), ('sep_conv_3x3', 2), ('dil_conv_5x5', 2), ('sep_conv_5x5', 3), ('max_pool_3x3', 1), ('max_pool_3x3', 4)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 1), ('sep_conv_3x3', 0), ('avg_pool_3x3', 2), ('sep_conv_3x3', 0), ('sep_conv_5x5', 3), ('max_pool_3x3', 2), ('dil_conv_3x3', 4), ('skip_connect', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 3.2792398086689284e+19
+JACOBIAN COV: -32.27482823415782
+SNIP: 125.24374389648438
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('skip_connect', 1), ('avg_pool_3x3', 2), ('skip_connect', 0), ('avg_pool_3x3', 0), ('dil_conv_5x5', 3), ('dil_conv_5x5', 2), ('skip_connect', 1)], normal_concat=range(2, 6), reduce=[('sep_conv_5x5', 1), ('sep_conv_3x3', 0), ('max_pool_3x3', 1), ('sep_conv_5x5', 0), ('sep_conv_3x3', 2), ('dil_conv_3x3', 1), ('skip_connect', 1), ('dil_conv_3x3', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 2.3959270316837024e+16
+JACOBIAN COV: -32.32638107243715
+SNIP: 46.700401306152344
+
+GENOTYPE: Genotype(normal=[('dil_conv_5x5', 0), ('skip_connect', 1), ('max_pool_3x3', 2), ('dil_conv_5x5', 1), ('skip_connect', 0), ('avg_pool_3x3', 2), ('skip_connect', 1), ('max_pool_3x3', 2)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 0), ('avg_pool_3x3', 1), ('skip_connect', 1), ('dil_conv_5x5', 2), ('dil_conv_3x3', 2), ('dil_conv_5x5', 3), ('skip_connect', 1), ('dil_conv_5x5', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 8682034050702.058
+JACOBIAN COV: -32.25331966318082
+SNIP: 67.87907409667969
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('avg_pool_3x3', 1), ('dil_conv_5x5', 0), ('avg_pool_3x3', 1), ('sep_conv_3x3', 2), ('sep_conv_5x5', 1), ('dil_conv_3x3', 0), ('max_pool_3x3', 2)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 0), ('sep_conv_3x3', 1), ('skip_connect', 2), ('dil_conv_5x5', 1), ('sep_conv_3x3', 1), ('dil_conv_5x5', 0), ('max_pool_3x3', 4), ('max_pool_3x3', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 167232821145514.88
+JACOBIAN COV: -32.295597913001195
+SNIP: 76.04288482666016
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 1), ('avg_pool_3x3', 0), ('dil_conv_5x5', 2), ('sep_conv_5x5', 1), ('sep_conv_5x5', 1), ('sep_conv_5x5', 0), ('sep_conv_3x3', 1), ('skip_connect', 2)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 0), ('avg_pool_3x3', 1), ('avg_pool_3x3', 0), ('sep_conv_5x5', 1), ('skip_connect', 0), ('sep_conv_3x3', 2), ('avg_pool_3x3', 4), ('avg_pool_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 2.7882974350653764e+16
+JACOBIAN COV: -32.306665414368815
+SNIP: 59.21706008911133
+
+GENOTYPE: Genotype(normal=[('skip_connect', 1), ('dil_conv_5x5', 0), ('sep_conv_3x3', 1), ('avg_pool_3x3', 2), ('dil_conv_5x5', 3), ('dil_conv_5x5', 2), ('sep_conv_5x5', 0), ('skip_connect', 1)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 1), ('skip_connect', 0), ('max_pool_3x3', 0), ('max_pool_3x3', 2), ('dil_conv_5x5', 1), ('max_pool_3x3', 3), ('sep_conv_5x5', 0), ('dil_conv_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 575871099438055.5
+JACOBIAN COV: -32.34469514691371
+SNIP: 76.7837142944336
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 1), ('avg_pool_3x3', 0), ('dil_conv_5x5', 0), ('dil_conv_5x5', 2), ('sep_conv_3x3', 0), ('sep_conv_5x5', 1), ('sep_conv_3x3', 0), ('max_pool_3x3', 4)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 0), ('dil_conv_5x5', 1), ('max_pool_3x3', 1), ('sep_conv_3x3', 2), ('avg_pool_3x3', 0), ('sep_conv_5x5', 1), ('sep_conv_3x3', 3), ('sep_conv_3x3', 2)], reduce_concat=range(2, 6))
+SYNFLOW: 2.1804307501737732e+16
+JACOBIAN COV: -32.29144970218012
+SNIP: 127.06076049804688
+
+GENOTYPE: Genotype(normal=[('dil_conv_5x5', 1), ('sep_conv_3x3', 0), ('dil_conv_5x5', 0), ('sep_conv_5x5', 2), ('skip_connect', 2), ('dil_conv_5x5', 1), ('sep_conv_5x5', 3), ('dil_conv_3x3', 2)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 0), ('max_pool_3x3', 1), ('avg_pool_3x3', 0), ('sep_conv_3x3', 1), ('max_pool_3x3', 2), ('dil_conv_5x5', 0), ('skip_connect', 4), ('sep_conv_5x5', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 2.4733241007973543e+23
+JACOBIAN COV: -32.26804143866614
+SNIP: 73.0926513671875
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 1), ('sep_conv_5x5', 0), ('sep_conv_3x3', 1), ('dil_conv_3x3', 2), ('avg_pool_3x3', 0), ('max_pool_3x3', 2), ('max_pool_3x3', 0), ('skip_connect', 4)], normal_concat=range(2, 6), reduce=[('dil_conv_5x5', 1), ('sep_conv_5x5', 0), ('sep_conv_3x3', 0), ('dil_conv_3x3', 1), ('dil_conv_3x3', 1), ('sep_conv_3x3', 0), ('max_pool_3x3', 4), ('sep_conv_5x5', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 757302528883146.9
+JACOBIAN COV: -32.28146821040895
+SNIP: 93.21759033203125
+
+GENOTYPE: Genotype(normal=[('max_pool_3x3', 1), ('dil_conv_5x5', 0), ('skip_connect', 2), ('max_pool_3x3', 1), ('sep_conv_3x3', 0), ('dil_conv_5x5', 3), ('max_pool_3x3', 1), ('avg_pool_3x3', 3)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 1), ('dil_conv_5x5', 0), ('sep_conv_3x3', 1), ('dil_conv_3x3', 0), ('skip_connect', 1), ('dil_conv_5x5', 0), ('dil_conv_5x5', 0), ('sep_conv_3x3', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 37159091874053.22
+JACOBIAN COV: -32.311717006271536
+SNIP: 106.53036499023438
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('sep_conv_3x3', 1), ('sep_conv_5x5', 0), ('sep_conv_3x3', 1), ('avg_pool_3x3', 2), ('avg_pool_3x3', 1), ('sep_conv_3x3', 4), ('avg_pool_3x3', 3)], normal_concat=range(2, 6), reduce=[('dil_conv_3x3', 0), ('avg_pool_3x3', 1), ('dil_conv_5x5', 1), ('max_pool_3x3', 0), ('avg_pool_3x3', 2), ('sep_conv_3x3', 0), ('dil_conv_5x5', 4), ('skip_connect', 1)], reduce_concat=range(2, 6))
+SYNFLOW: 5.305432735413426e+17
+JACOBIAN COV: -32.21280743995729
+SNIP: 78.41815948486328
+
+GENOTYPE: Genotype(normal=[('sep_conv_3x3', 0), ('avg_pool_3x3', 1), ('sep_conv_5x5', 0), ('skip_connect', 1), ('sep_conv_5x5', 3), ('sep_conv_5x5', 2), ('sep_conv_5x5', 2), ('sep_conv_5x5', 4)], normal_concat=range(2, 6), reduce=[('skip_connect', 0), ('avg_pool_3x3', 1), ('max_pool_3x3', 0), ('dil_conv_3x3', 2), ('max_pool_3x3', 0), ('max_pool_3x3', 3), ('skip_connect', 4), ('skip_connect', 3)], reduce_concat=range(2, 6))
+SYNFLOW: 9.378135278670546e+24
+JACOBIAN COV: -32.29567838576049
+SNIP: 76.8581771850586
+
+GENOTYPE: Genotype(normal=[('avg_pool_3x3', 0), ('dil_conv_5x5', 1), ('dil_conv_3x3', 0), ('dil_conv_3x3', 2), ('sep_conv_5x5', 3), ('max_pool_3x3', 1), ('avg_pool_3x3', 1), ('skip_connect', 3)], normal_concat=range(2, 6), reduce=[('sep_conv_3x3', 0), ('sep_conv_5x5', 1), ('sep_conv_5x5', 1), ('sep_conv_3x3', 2), ('max_pool_3x3', 3), ('dil_conv_3x3', 0), ('avg_pool_3x3', 1), ('skip_connect', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 7.809017946268487e+18
+JACOBIAN COV: -32.26596764563999
+SNIP: 111.37892150878906
+
+GENOTYPE: Genotype(normal=[('sep_conv_5x5', 0), ('max_pool_3x3', 1), ('max_pool_3x3', 1), ('sep_conv_5x5', 0), ('avg_pool_3x3', 1), ('sep_conv_3x3', 0), ('sep_conv_3x3', 2), ('max_pool_3x3', 0)], normal_concat=range(2, 6), reduce=[('max_pool_3x3', 1), ('dil_conv_5x5', 0), ('sep_conv_3x3', 1), ('max_pool_3x3', 0), ('dil_conv_5x5', 3), ('dil_conv_3x3', 2), ('dil_conv_5x5', 4), ('skip_connect', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 246534619020884.22
+JACOBIAN COV: -32.27043939286892
+SNIP: 72.82843017578125
+
+GENOTYPE: Genotype(normal=[('dil_conv_3x3', 0), ('dil_conv_5x5', 1), ('sep_conv_3x3', 0), ('dil_conv_5x5', 2), ('skip_connect', 2), ('dil_conv_5x5', 3), ('max_pool_3x3', 0), ('max_pool_3x3', 1)], normal_concat=range(2, 6), reduce=[('avg_pool_3x3', 1), ('dil_conv_3x3', 0), ('sep_conv_3x3', 2), ('sep_conv_5x5', 1), ('skip_connect', 0), ('avg_pool_3x3', 2), ('skip_connect', 1), ('avg_pool_3x3', 4)], reduce_concat=range(2, 6))
+SYNFLOW: 63172383573228.74
+JACOBIAN COV: -32.27315690274189
+SNIP: 51.26398849487305
+
+GENOTYPE: Genotype(normal=[('dil_conv_5x5', 1), ('sep_conv_5x5', 0), ('dil_conv_3x3', 1), ('skip_connect', 2), ('sep_conv_3x3', 3), ('avg_pool_3x3', 1), ('max_pool_3x3', 1), ('avg_pool_3x3', 3)], normal_concat=range(2, 6), reduce=[('skip_connect', 0), ('avg_pool_3x3', 1), ('sep_conv_5x5', 2), ('sep_conv_5x5', 0), ('dil_conv_3x3', 0), ('avg_pool_3x3', 3), ('max_pool_3x3', 2), ('dil_conv_3x3', 0)], reduce_concat=range(2, 6))
+SYNFLOW: 5.341927492187036e+17
+JACOBIAN COV: -32.31294599790955
+SNIP: 68.34097290039062
+
