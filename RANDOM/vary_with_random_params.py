@@ -82,7 +82,6 @@ def vary_with_random_params(num_iterations = 300, num_runs = 50):
             if perf_changes[max_change_op_pair] <= 0:
                 #print("No performance gain")
                 #print(counter, " iterations")
-                # Instead of raising an error when there is no performance gain, generate a new random architecture
                 curr_index = np.random.randint(len(api))  # Use a random index
                 curr_perf = api.get_more_info(curr_index, 'cifar10-valid', iepoch=None, hp='200', is_random = False)['valid-accuracy']
                 if curr_perf > best_perf:
@@ -162,7 +161,6 @@ def vary_with_random_params(num_iterations = 300, num_runs = 50):
         results.append(conduct_search())
         print(f"Run {i+1} out of {num_runs}")
         
-    #print these out to a file
     with open('vary_mean_std.txt', 'w') as f:
         for i in range(num_iterations//100):
             f.write("MEAN at " + str(100*(i+1)) + " iterations: " + str(np.mean(results, axis=0)[99*i]) + "\n")

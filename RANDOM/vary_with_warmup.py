@@ -148,7 +148,6 @@ def vary_with_warmup(num_iterations = 300, num_runs = 50):
             # Compute its cost
             accuracy = float(api.get_more_info(arch, 'cifar10-valid', iepoch=None, hp='200', is_random = False)['valid-accuracy'])
             
-            # If this is the best architecture so far, update the best architecture and its cost
             if accuracy > best_accuracy_run:
                 best_accuracy_run = accuracy
                 best_arch_index = arch

@@ -120,13 +120,6 @@ class Supernet(torch.nn.Module):
         self.normal_parameters,
         self.reduction_parameters,
     ]
-    
-    #-----------------------------
-    # asd = torch.full((k, num_ops), 0.1)
-    # for i in range(shape(asd)[0]):
-      # asd[i][3] = 2
-    # self.normal_parameters = Variable(asd.cuda(), requires_grad=True)
-    #-----------------------------
 
   def forward(self, input_data):
     s0 = s1 = self.network_stem(input_data)

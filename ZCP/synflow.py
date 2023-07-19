@@ -19,7 +19,6 @@ def synflow_score(model, dataloader):
 
     model.zero_grad()
 
-    # Get the first batch of data from the dataloader
     inputs, _ = next(iter(dataloader))
     inputs = inputs.to('cuda')
 
@@ -34,13 +33,10 @@ def synflow_score(model, dataloader):
                     return (layer.weight.data * layer.weight.grad.data).abs()
         return None
 
-    # Calculate synflow scores for each layer
     layer_synflows = [s for s in (synflow(layer) for layer in model.modules()) if s is not None]
     
-    # Combine synflow scores into a single tensor
     total_synflow_score = torch.cat([synflow.view(-1) for synflow in layer_synflows])
 
-    # Calculate total synflow score as sum of individual scores
     total_synflow_score = total_synflow_score.sum().item()
 
     # Restore the model's parameters

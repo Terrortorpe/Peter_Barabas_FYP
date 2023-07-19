@@ -40,7 +40,6 @@ def snip(net, dataloader, loss_fn):
         if isinstance(layer, nn.Linear):
             layer.forward = types.MethodType(snip_forward_linear, layer)
 
-    # Compute gradients (but don't apply them)
     net.zero_grad()
     outputs = net(inputs)[0]
     loss = loss_fn(outputs, targets)

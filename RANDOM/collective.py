@@ -45,7 +45,6 @@ else:
     vary_with_warmup(num_iterations, num_runs)
     print("Varied random search with warmup complete.")
 
-# Function to read numbers from a file
 def read_numbers_from_file(filename):
     with open(filename, 'r') as f:
         numbers = [float(line.strip()) for line in f]

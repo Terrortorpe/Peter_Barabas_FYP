@@ -3,7 +3,6 @@ import torch.nn as nn
 import numpy as np
 
 def jacob_cov(net, dataloader, num_batches=1):
-    # Ensuring the network is in evaluation mode
     net.eval()
 
     # Data acquisition
@@ -27,7 +26,6 @@ def jacob_cov(net, dataloader, num_batches=1):
     k = 1e-5
     jc = -np.sum(np.log(v + k) + 1./(v + k))
 
-    # Putting the network back into training mode
     net.train()
 
     return jc
